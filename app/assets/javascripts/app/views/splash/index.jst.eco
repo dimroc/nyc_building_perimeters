@@ -1,0 +1,8 @@
+<div class="loading">
+  <div class="relativeHolder">
+    <div class="contentHolder">
+      <img src="/assets/loading.gif"/>
+      <p class="label label-info">Loading</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+.modal-header
+  %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+  %h3#myModalLabel Add Video Block
+
+= simple_form_for [:api, Block::Video.new], url: api_blocks_path do |f|
+  .modal-body
+    = f.input :type, as: :hidden
+
+    / the control will appear next to this, and the video ID will be stored here after the upload
+    %input{name: :panda_id, id: :returned_video_id, type: :hidden}
+
+    / upload progress bar (optional)
+    #upload_progress.panda_upload_progress
+
+    = f.label "Longitude"
+    %input{:name => "longitude", :type => "number", step: "any"}/
+
+    = f.label "Latitude"
+    %input{:name => "latitude", :type => "number", step: "any"}/
+
+    %p
+      Please note that it will take a minute for the video to encode
+      before appearing on the map
+
+  .modal-footer
+    = f.button :submit, class: "btn btn-primary"
+
+- access_details = Panda.signed_params('POST', '/videos.json')
+:javascript
+  var panda_access_details = #{access_details.to_json.html_safe};
+
+  var successCallback = function(event) {
+    $("#addBlockModal form").ajaxSubmit({
+      error: function() { console.warn("Unable to submit form"); },
+      success: function() { $("#addBlockModal").modal('hide'); }
+    });
+    return false;
+  };
+
+  $("#returned_video_id").pandaUploader(panda_access_details, {
+    upload_progress_id: 'upload_progress',
+    upload_strategy: new PandaUploader.UploadOnSubmitAjax(successCallback)
+  });

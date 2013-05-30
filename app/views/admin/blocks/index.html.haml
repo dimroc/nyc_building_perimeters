@@ -1,0 +1,22 @@
+%script{:src => "http://cdn.pandastream.com/u/1.4/jquery.panda-uploader.min.js", :type => "text/javascript"}
+
+= render "partials/block_video_form"
+
+%div
+  %table.table
+    %tr
+      %th ID
+      %th Type
+      %th Mercator Point
+      %th Geographic Point
+      %th Panda Video Id
+      %th Video Filename
+
+    - @blocks.each do |block|
+      %tr
+        %td= block.id
+        %td= block.type
+        %td= block.point
+        %td= block.point_geographic
+        %td= block.video.try(:panda_id)
+        %td= block.video.try(:original_filename)

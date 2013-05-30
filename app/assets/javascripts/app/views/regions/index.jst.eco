@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Block Cities</h1>
+  <div class="well">
+    <ul class="nav nav-list">
+        <% for region in @regions: %>
+          <li class="row-fluid" data-slug="<%= region.slug %>">
+            <a class="span4" data-type="show"><%= region.name %></a>
+          </li>
+        <% end %>
+        <a class="span4" data-type="back">Back</a>
+    </ul>
+  </div>
+</div>

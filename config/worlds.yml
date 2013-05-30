@@ -1,0 +1,27 @@
+defaults: &defaults
+  region_name_key: BoroCD
+  inverse_scale: 700
+  tolerance: 3
+
+worlds:
+  - name: NYC
+    <<: *defaults
+    region_name_key: BoroName
+
+  # - name: Manhattan
+    # <<: *defaults
+
+  # - name: Bronx
+    # <<: *defaults
+    # inverse_scale: 600
+
+  # - name: Queens
+    # <<: *defaults
+    # inverse_scale: 1000
+    # tolerance: 3
+
+  # - name: Brooklyn
+    # <<: *defaults
+
+  # - name: Staten Island
+    # <<: *defaults

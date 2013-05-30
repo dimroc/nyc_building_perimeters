@@ -1,0 +1,2 @@
+class SpineController < ApplicationController
+end

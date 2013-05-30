@@ -1,0 +1,30 @@
+#spine {
+  .stack > *:not(.active) {
+    display: none;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.loading {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: @barely-white;
+  height: 100%;
+  width: 100%;
+
+  .contentHolder {
+    position: absolute;
+    background-color: @translucent-white;
+    top: 85px;
+    right: 0;
+
+    padding: 10px;
+
+    width: 230px;
+    .border-radius(25px);
+  }
+}

@@ -1,0 +1,14 @@
+default: &defaults
+  access_key: GARBAGE
+  secret_key: GARBAGE
+  cloud_id: GARBAGE
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  cloud_id: GARBAGE

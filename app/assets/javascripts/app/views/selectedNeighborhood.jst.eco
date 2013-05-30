@@ -1,0 +1,4 @@
+<form class="form-search" onSubmit="return false;">
+  <i class="icon-search"></i>
+  <input id="search" class="input-large search-query" type="text" name="neighborhood" placeholder="Type to search for a neighborhood" autocomplete="off"/>
+</form>

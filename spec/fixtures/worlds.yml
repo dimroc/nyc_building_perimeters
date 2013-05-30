@@ -1,0 +1,73 @@
+---
+nyc:
+  id: 1
+  name: NYC
+  slug: nyc
+  created_at: 2013-03-31 17:00:23.730983000 Z
+  updated_at: 2013-03-31 17:00:23.730983000 Z
+  mesh_scale: 0.000333333333333333
+  mercator_bounding_box_geometry: !ruby/object:RGeo::Geos::CAPIPolygonImpl
+    factory: !ruby/object:RGeo::Geos::CAPIFactory
+      has_z_coordinate: false
+      has_m_coordinate: false
+      srid: 3785
+      buffer_resolution: 1
+      lenient_multi_polygon_assertions: false
+      wkt_generator:
+        tag_format: wkt11
+        emit_ewkt_srid: 
+        square_brackets: false
+        convert_case: upper
+      wkb_generator:
+        type_format: wkb11
+        emit_ewkb_srid: 
+        hex_format: false
+        little_endian: false
+      wkt_parser:
+        support_ewkt: false
+        support_wkt12: false
+        strict_wkt11: false
+        ignore_extra_tokens: false
+        default_srid: 
+      wkb_parser:
+        support_ewkb: false
+        support_wkb12: false
+        ignore_extra_bytes: false
+        default_srid: 
+      auto_prepare: simple
+    wkt: POLYGON ((-8266094.6191727994009852 4910511.4270622786134481, -8204247.4804497892037034
+      4910511.4270622786134481, -8204247.4804497892037034 4971865.5564454598352313,
+      -8266094.6191727994009852 4971865.5564454598352313, -8266094.6191727994009852
+      4910511.4270622786134481))
+  mesh_bounding_box_geometry: !ruby/object:RGeo::Geos::CAPIPolygonImpl
+    factory: !ruby/object:RGeo::Geos::CAPIFactory
+      has_z_coordinate: false
+      has_m_coordinate: false
+      srid: 0
+      buffer_resolution: 1
+      lenient_multi_polygon_assertions: false
+      wkt_generator:
+        tag_format: wkt11
+        emit_ewkt_srid: 
+        square_brackets: false
+        convert_case: upper
+      wkb_generator:
+        type_format: wkb11
+        emit_ewkb_srid: 
+        hex_format: false
+        little_endian: false
+      wkt_parser:
+        support_ewkt: false
+        support_wkt12: false
+        strict_wkt11: false
+        ignore_extra_tokens: false
+        default_srid: 
+      wkb_parser:
+        support_ewkb: false
+        support_wkb12: false
+        ignore_extra_bytes: false
+        default_srid: 
+      auto_prepare: simple
+    wkt: POLYGON ((0.0018060537695419 0.0219657604970962, 20.6152994981862321 0.0219657604970962,
+      20.6152994981862321 20.4513764610603630, 0.0018060537695419 20.4513764610603630,
+      0.0018060537695419 0.0219657604970962))

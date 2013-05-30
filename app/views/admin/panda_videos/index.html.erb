@@ -1,0 +1,40 @@
+<script src="http://cdn.pandastream.com/u/1.4/jquery.panda-uploader.min.js" type="text/javascript"></script>
+
+<form action="/api/panda_videos" method="POST">
+  <!-- the control will appear next to this, and the video ID will be stored here after the upload -->
+  <input type="hidden" name="panda_video_id" id="returned_video_id" />
+
+  <!-- upload progress bar (optional) -->
+  <div id="upload_progress" class="panda_upload_progress"></div>
+
+  <!-- a submit button -->
+  <p><input type="submit" value="Upload video" /></p>
+</form>
+<script>
+  var panda_access_details = <%= @access_details.to_json.html_safe %>;
+  $("#returned_video_id").pandaUploader(panda_access_details, {
+    upload_progress_id: 'upload_progress',
+    onsuccess: function() {
+      console.log("successfully uploaded file")
+    }
+  });
+</script>
+
+<div>
+  <h2>Panda Videos (Straight from Panda, no NBC Model)</h2>
+  <table class="table">
+    <tr>
+      <td>id</td>
+      <td>original_filename</td>
+      <td>status</td>
+    </tr>
+
+    <% @videos.each do |video| %>
+      <tr>
+      <td><%= video.id %></td>
+      <td><%= video.original_filename %></td>
+      <td><%= video.status %></td>
+      </tr>
+    <% end %>
+  </ul>
+</div>

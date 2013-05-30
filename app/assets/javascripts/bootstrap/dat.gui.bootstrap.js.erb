@@ -1,0 +1,39 @@
+$(function() {
+  var navigateToRegions = function() {
+    App.instance.navigate('/regions')
+  };
+
+  App.World.bind('loaded', function() {
+    var gui = new dat.GUI({autoPlace: false});
+    gui.closed = true;
+
+    var options = { "See Regions": navigateToRegions };
+
+    gui.add(Env, "autoNavigate");
+    gui.add(options, "See Regions");
+    gui.add(Env, "neighbors", 0, 5).step(1);
+    var debugController = gui.add(Env, "debug");
+    debugController.onChange(function(value) {
+      if(!value) { $(".debug").fadeOut(); }
+      else { $(".debug").fadeIn(); }
+    });
+
+    var layerOptions = ["normal", "wireframe", "off"]
+    var boroughController = gui.add(Env, "boroughs", layerOptions);
+    var neighborhoodController = gui.add(Env, "neighborhoods", layerOptions);
+    gui.add(Env, "buildings");
+    gui.add(Env, "blocks");
+
+    boroughController.onChange(function(value) {
+      if(value != "off")
+        getHook().reloadRegions();
+    });
+
+    neighborhoodController.onChange(function(value) {
+      if(value != "off") App.NeighborhoodMesh.resetMaterial();
+    });
+
+    var customContainer = $('#datgui');
+    customContainer.append(gui.domElement);
+  });
+});

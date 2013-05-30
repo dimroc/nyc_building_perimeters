@@ -1,0 +1,8 @@
+development: &development
+  app_id: 99999
+  key: GARBAGE
+  secret: garbage
+
+test:
+
+production:

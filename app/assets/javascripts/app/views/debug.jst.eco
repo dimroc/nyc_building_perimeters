@@ -1,0 +1,30 @@
+<div class="nav nav-list debug debug-sidenav affix" style="display: none;">
+  <p class="label label-inverse"> Debug Panel</p>
+  <table class="table table-bordered">
+    <tr>
+      <th>mouse</th>
+      <th>x</th>
+      <th>y</th>
+    </tr>
+    <tr class="screen">
+      <td>screen</td>
+      <td class="x"></td>
+      <td class="y"></td>
+    </tr>
+    <tr class="world">
+      <td>world</td>
+      <td class="x"></td>
+      <td class="y"></td>
+    </tr>
+    <tr class="mercator">
+      <td>mercator</td>
+      <td class="x"></td>
+      <td class="y"></td>
+    </tr>
+    <tr class="lonlat">
+      <td>lon/lat</td>
+      <td class="x"></td>
+      <td class="y"></td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,16 @@
+icon_paths = [
+  "<%= image_path("loading.gif") %>",
+
+  <% World.select(:slug).map(&:slug).each do |slug| %>
+  "<%= image_path("icons/#{slug}.png") %>",
+  <% end %>
+
+  <% Region.select(:slug).map(&:slug).each do |slug| %>
+  "<%= image_path("icons/#{slug}.png") %>",
+  <% end %>
+]
+
+for(var i = 0; i < icon_paths.length; i++) {
+  var image = new Image();
+  image.src = icon_paths[i];
+}

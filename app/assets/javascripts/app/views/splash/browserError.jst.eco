@@ -1,0 +1,19 @@
+<div class="container">
+  <p class="span12 height100"/>
+
+  <h1>New Block City</h1>
+  <table>
+    <tbody>
+
+      <tr>
+        <% for regionName in @regionNames: %>
+          <td class="<%= regionName %> icon centered">
+            <img src="<%= "/assets/icons/#{regionName}.png" %>" alt="<%= regionName %>">
+          </td>
+        <% end %>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Error!</h2>
+  <p>This application requires <a href="http://www.google.com/chrome">Chrome!</a> version 23+.</p>
+</div>

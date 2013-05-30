@@ -1,0 +1,17 @@
+---
+standard_user:
+  id: 1
+  email: alexis_block@cole.com
+  encrypted_password: $2a$04$F7bGVu/C/KayhvbkgkWmTu5WhbJj3dNteY0fdX/ct8DH9K178asuq
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: 
+  sign_in_count: 0
+  current_sign_in_at: 
+  last_sign_in_at: 
+  current_sign_in_ip: 
+  last_sign_in_ip: 
+  provider: 
+  uid: 
+  name: 
+  access_token: 

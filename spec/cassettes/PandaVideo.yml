@@ -1,0 +1,184 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pandastream.com/v2/encodings.json?access_key=406a5b5620af84ed047d&cloud_id=08f3efa18618adc397c31694f941afcf&profile_name=h264&signature=51mlWg8FUxCxiPoFHPTQUcBAAdxQ098dXUAH62zcteQ=&timestamp=2012-12-03T04:08:08.323109Z&video_id=81292d1d14b508c23ae93dc98ccee543
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Dec 2012 04:08:07 GMT
+      Server:
+      - nginx/0.8.55
+      Status:
+      - 200 OK
+      Content-Length:
+      - '681'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":"0e4a9657c751e95cd6acfe2e89fd4d2b","extname":".mp4","video_id":"81292d1d14b508c23ae93dc98ccee543","height":480,"width":640,"created_at":"2012/11/28
+        12:56:57 +0000","updated_at":"2012/11/28 12:57:14 +0000","started_encoding_at":"2012/11/28
+        12:56:59 +0000","video_bitrate":650,"audio_bitrate":75,"audio_channels":1,"audio_sample_rate":44100,"fps":29.97,"audio_codec":"aac","video_codec":"h264","encoding_time":5,"duration":7405,"file_size":673219,"profile_id":"b465d0f8381ddb6d8ede5d02c1d6e9ac","encoding_progress":100,"status":"success","mime_type":"video/mp4","path":"0e4a9657c751e95cd6acfe2e89fd4d2b","profile_name":"h264","files":["0e4a9657c751e95cd6acfe2e89fd4d2b.mp4"]}]'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 04:08:10 GMT
+- request:
+    method: get
+    uri: https://api.pandastream.com/v2/clouds/08f3efa18618adc397c31694f941afcf.json?access_key=406a5b5620af84ed047d&signature=9uegQ/nph1d72U4yOEP3YseMhy3x4SX1HGlZtvhMb18=&timestamp=2012-12-03T04:11:04.799750Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Dec 2012 04:11:05 GMT
+      Server:
+      - nginx/0.8.55
+      Status:
+      - 200 OK
+      Content-Length:
+      - '250'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":"08f3efa18618adc397c31694f941afcf","name":"newblockcity","s3_videos_bucket":"newblockcity","s3_private_access":true,"created_at":"2012/11/28
+        12:38:26 +0000","updated_at":"2012/12/03 03:12:27 +0000","url":"http://newblockcity.s3.amazonaws.com/"}'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 04:11:09 GMT
+- request:
+    method: get
+    uri: https://api.pandastream.com/v2/videos/81292d1d14b508c23ae93dc98ccee543.json?access_key=406a5b5620af84ed047d&cloud_id=08f3efa18618adc397c31694f941afcf&id=81292d1d14b508c23ae93dc98ccee543&signature=943h+FIicpvYhyxB0dMXkyvfgUAJw2Tr2XUQ3B1+4EI=&timestamp=2012-12-03T04:11:09.142951Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Dec 2012 04:11:05 GMT
+      Server:
+      - nginx/0.8.55
+      Status:
+      - 200 OK
+      Content-Length:
+      - '485'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":"81292d1d14b508c23ae93dc98ccee543","created_at":"2012/11/28
+        12:56:57 +0000","updated_at":"2012/11/28 12:56:59 +0000","original_filename":"SanDiegoArrival.mp4","source_url":null,"duration":7338,"height":480,"width":864,"extname":".mp4","file_size":2479478,"video_bitrate":2548,"audio_bitrate":158,"audio_codec":"aac","video_codec":"h264","fps":29.97,"audio_channels":1,"audio_sample_rate":44100,"status":"success","mime_type":"video/mp4","path":"81292d1d14b508c23ae93dc98ccee543"}'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 04:11:09 GMT
+- request:
+    method: get
+    uri: https://api.pandastream.com/v2/videos/gibberishdoesnotexist.json?access_key=406a5b5620af84ed047d&cloud_id=08f3efa18618adc397c31694f941afcf&id=gibberishdoesnotexist&signature=iT15kbGRHliocXxJPjKHIprWyR0A9bCuW7c/6Que5ew=&timestamp=2012-12-03T13:20:06.515485Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Dec 2012 13:20:06 GMT
+      Server:
+      - nginx/0.8.55
+      Status:
+      - 404 Not Found
+      Content-Length:
+      - '88'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"error":"RecordNotFound","message":"Couldn''t find Video with ID=gibberishdoesnotexist"}'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 13:20:10 GMT
+- request:
+    method: get
+    uri: https://api.pandastream.com/v2/videos.json?access_key=406a5b5620af84ed047d&cloud_id=08f3efa18618adc397c31694f941afcf&signature=hE9M/xwaiHbzGm+cdwE5wup4DF1bKYhFdS75e3UkfWw=&timestamp=2012-12-03T13:29:29.240748Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Dec 2012 13:29:29 GMT
+      Server:
+      - nginx/0.8.55
+      Status:
+      - 200 OK
+      Content-Length:
+      - '977'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '[{"id":"01d941dfed42f737421ba735c5d0a654","created_at":"2012/12/03
+        13:23:55 +0000","updated_at":"2012/12/03 13:23:57 +0000","original_filename":"SanDiegoArrival360p.mp4","source_url":null,"duration":7338,"height":352,"width":640,"extname":".mp4","file_size":1440639,"video_bitrate":1411,"audio_bitrate":158,"audio_codec":"aac","video_codec":"h264","fps":29.97,"audio_channels":1,"audio_sample_rate":44100,"status":"success","mime_type":"video/mp4","path":"01d941dfed42f737421ba735c5d0a654"},{"id":"81292d1d14b508c23ae93dc98ccee543","created_at":"2012/11/28
+        12:56:57 +0000","updated_at":"2012/11/28 12:56:59 +0000","original_filename":"SanDiegoArrival.mp4","source_url":null,"duration":7338,"height":480,"width":864,"extname":".mp4","file_size":2479478,"video_bitrate":2548,"audio_bitrate":158,"audio_codec":"aac","video_codec":"h264","fps":29.97,"audio_channels":1,"audio_sample_rate":44100,"status":"success","mime_type":"video/mp4","path":"81292d1d14b508c23ae93dc98ccee543"}]'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 13:29:33 GMT
+recorded_with: VCR 2.3.0

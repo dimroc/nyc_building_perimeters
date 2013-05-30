@@ -1,0 +1,5 @@
+<img class="profile" src='<%= @profilePhoto() %>' alt='<%=@name%>'></img>
+<div class="info">
+  <h4 class="name"><%= @name %></h4>
+  <a class="logout">Log out</a>
+</div>

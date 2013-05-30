@@ -1,0 +1,399 @@
+GIT
+  remote: git://github.com/johnbintz/guard-rails.git
+  revision: 36d24c0c14ba43532938a5edb3554c38f97de3c0
+  specs:
+    guard-rails (0.1.1)
+      guard (>= 0.2.2)
+
+GIT
+  remote: git://github.com/pandastream/panda_gem.git
+  revision: 32187421556de3008d8126eafae2c7a59467760d
+  specs:
+    panda (1.6.0)
+      excon (>= 0.19.0)
+      multi_json (>= 1.3.2)
+      ruby-hmac (>= 0.3.2)
+
+GIT
+  remote: git://github.com/spine/spine-rails.git
+  revision: c7b884484768caf1027a606f803653e8402f4b96
+  ref: c7b884484768caf1027a606f803653e8402f4b96
+  specs:
+    spine-rails (0.1.0)
+      rails (>= 3.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (3.2.13)
+      actionpack (= 3.2.13)
+      mail (~> 2.5.3)
+    actionpack (3.2.13)
+      activemodel (= 3.2.13)
+      activesupport (= 3.2.13)
+      builder (~> 3.0.0)
+      erubis (~> 2.7.0)
+      journey (~> 1.0.4)
+      rack (~> 1.4.5)
+      rack-cache (~> 1.2)
+      rack-test (~> 0.6.1)
+      sprockets (~> 2.2.1)
+    activemodel (3.2.13)
+      activesupport (= 3.2.13)
+      builder (~> 3.0.0)
+    activerecord (3.2.13)
+      activemodel (= 3.2.13)
+      activesupport (= 3.2.13)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activerecord-postgis-adapter (0.6.2)
+      rgeo-activerecord (~> 0.5.0)
+    activeresource (3.2.13)
+      activemodel (= 3.2.13)
+      activesupport (= 3.2.13)
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    addressable (2.3.3)
+    arel (3.0.2)
+    awesome_print (1.1.0)
+    bcrypt-ruby (3.0.1)
+    bourne (1.4.0)
+      mocha (~> 0.13.2)
+    builder (3.0.4)
+    cancan (1.6.9)
+    capybara (2.0.2)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 2.0)
+      xpath (~> 1.0.0)
+    capybara-firebug (1.3.0)
+      capybara (>= 1.0, < 3.0)
+    childprocess (0.3.9)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.0.9)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
+    columnize (0.3.6)
+    commonjs (0.2.6)
+    crack (0.3.2)
+    daemons (1.1.9)
+    dbf (2.0.3)
+      fastercsv (~> 1.5.4)
+    debugger (1.5.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.0)
+    devise (2.2.3)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (~> 3.1)
+      warden (~> 1.2.1)
+    diff-lcs (1.2.1)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    em-websocket (0.5.0)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.5.3)
+    email_spec (1.4.0)
+      launchy (~> 2.1)
+      mail (~> 2.2)
+    erubis (2.7.0)
+    eventmachine (1.0.3)
+    excon (0.20.1)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    fastercsv (1.5.5)
+    ffaker (1.15.0)
+    ffi (1.5.0)
+    fixture_builder (0.3.5)
+      activerecord (>= 2)
+      activesupport (>= 2)
+    friendly_id (4.0.9)
+    fuubar (1.1.0)
+      rspec (~> 2.0)
+      rspec-instafail (~> 0.2.0)
+      ruby-progressbar (~> 1.0.0)
+    georuby (2.0.0)
+    growl (1.0.3)
+    guard (1.6.2)
+      listen (>= 0.6.0)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      terminal-table (>= 1.4.3)
+      thor (>= 0.14.6)
+    guard-coffeescript (1.3.0)
+      coffee-script (>= 2.2.0)
+      guard (>= 1.1.0)
+    guard-ctags-bundler (0.1.6)
+      guard (>= 1.1)
+    guard-livereload (1.1.3)
+      em-websocket (>= 0.2.0)
+      guard (>= 1.5.0)
+      multi_json (~> 1.0)
+    haml (4.0.1)
+      tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
+    hashie (2.0.4)
+    hike (1.2.2)
+    http_parser.rb (0.5.3)
+    httpauth (0.2.0)
+    i18n (0.6.1)
+    jasminerice (0.0.10)
+      coffee-rails
+      haml
+    journey (1.0.4)
+    jquery-rails (2.2.1)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    json (1.8.0)
+    json2-rails (0.0.2)
+    jwt (0.1.8)
+      multi_json (>= 1.5)
+    launchy (2.2.0)
+      addressable (~> 2.3)
+    less (2.3.1)
+      commonjs (~> 0.2.6)
+    less-rails (2.3.2)
+      actionpack (>= 3.1)
+      less (~> 2.3.1)
+    libv8 (3.11.8.17)
+    listen (0.7.3)
+    lumberjack (1.0.3)
+    mail (2.5.3)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    metaclass (0.0.1)
+    method_source (0.8.1)
+    mime-types (1.21)
+    mocha (0.13.3)
+      metaclass (~> 0.0.1)
+    multi_json (1.7.3)
+    multipart-post (1.2.0)
+    nokogiri (1.5.9)
+    oauth2 (0.8.1)
+      faraday (~> 0.8)
+      httpauth (~> 0.1)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      rack (~> 1.2)
+    omniauth (1.1.4)
+      hashie (>= 1.2, < 3)
+      rack
+    omniauth-facebook (1.4.0)
+      omniauth-oauth2 (~> 1.0.2)
+    omniauth-oauth2 (1.0.3)
+      oauth2 (~> 0.8.0)
+      omniauth (~> 1.0)
+    orm_adapter (0.4.0)
+    pg (0.14.1)
+    polyglot (0.3.3)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-debugger (0.2.2)
+      debugger (~> 1.3)
+      pry (~> 0.9.10)
+    pusher (0.11.3)
+      multi_json (~> 1.0)
+      signature (~> 0.1.6)
+    rack (1.4.5)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-ssl (1.3.3)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (3.2.13)
+      actionmailer (= 3.2.13)
+      actionpack (= 3.2.13)
+      activerecord (= 3.2.13)
+      activeresource (= 3.2.13)
+      activesupport (= 3.2.13)
+      bundler (~> 1.0)
+      railties (= 3.2.13)
+    railties (3.2.13)
+      actionpack (= 3.2.13)
+      activesupport (= 3.2.13)
+      rack-ssl (~> 1.3.2)
+      rake (>= 0.8.7)
+      rdoc (~> 3.4)
+      thor (>= 0.14.6, < 2.0)
+    rake (10.0.4)
+    rb-fsevent (0.9.3)
+    rbpoly2tri (0.0.1)
+    rdoc (3.12.2)
+      json (~> 1.4)
+    ref (1.0.4)
+    rgeo (0.3.20)
+    rgeo-activerecord (0.5.0)
+      activerecord (>= 3.0.3)
+      arel (>= 2.0.6)
+      rgeo (>= 0.3.20)
+    rgeo-geojson (0.2.3)
+      rgeo (>= 0.3.7)
+    rgeo-shapefile (0.2.3)
+      dbf (>= 1.7.0)
+      rgeo (>= 0.3.3)
+    rolify (3.2.0)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-instafail (0.2.4)
+    rspec-mocks (2.13.0)
+    rspec-rails (2.13.0)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    ruby-hmac (0.4.0)
+    ruby-progressbar (1.0.2)
+    rubyzip (0.9.9)
+    sass (3.2.7)
+    sass-rails (3.2.6)
+      railties (~> 3.2.0)
+      sass (>= 3.1.10)
+      tilt (~> 1.3)
+    selenium-webdriver (2.31.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip
+      websocket (~> 1.0.4)
+    sendgrid (1.1.0)
+      json
+      json
+    shoulda-matchers (1.5.4)
+      activesupport (>= 3.0.0)
+      bourne (~> 1.3)
+    signature (0.1.6)
+    simple_form (2.1.0)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
+    slop (3.4.4)
+    sprockets (2.2.2)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    terminal-table (1.4.5)
+    therubyracer (0.11.4)
+      libv8 (~> 3.11.8.12)
+      ref
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thin-rails (1.0.1)
+      rack
+      thin
+    thor (0.18.1)
+    tilt (1.4.1)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    twitter-bootstrap-rails (2.2.6)
+      actionpack (>= 3.1)
+      execjs
+      railties (>= 3.1)
+    tzinfo (0.3.37)
+    uglifier (1.3.0)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    vcr (2.4.0)
+    warden (1.2.1)
+      rack (>= 1.0)
+    webmock (1.11.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+    websocket (1.0.7)
+    xpath (1.0.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord-postgis-adapter
+  awesome_print
+  cancan (>= 1.6.7)
+  capybara
+  capybara-firebug
+  coffee-rails (~> 3.2.1)
+  devise (>= 2.1.0)
+  eco
+  email_spec (>= 1.2.1)
+  factory_girl_rails (>= 3.3.0)
+  ffaker
+  fixture_builder
+  friendly_id (~> 4.0.9)
+  fuubar
+  georuby
+  growl
+  guard (>= 0.6.2)
+  guard-coffeescript
+  guard-ctags-bundler
+  guard-livereload (>= 0.3.0)
+  guard-rails!
+  haml (>= 3.1.6)
+  haml-rails (>= 0.3.4)
+  hashie
+  jasminerice
+  jquery-rails
+  json2-rails
+  less-rails
+  omniauth-facebook (= 1.4.0)
+  panda!
+  pg
+  pry
+  pry-debugger
+  pusher
+  rails (~> 3.2.13)
+  rb-fsevent
+  rbpoly2tri
+  rgeo
+  rgeo-geojson
+  rgeo-shapefile
+  rolify (>= 3.1.0)
+  rspec-rails (>= 2.10.1)
+  sass-rails (~> 3.2.3)
+  sendgrid
+  shoulda-matchers
+  simple_form
+  spine-rails!
+  therubyracer
+  thin-rails
+  twitter-bootstrap-rails
+  uglifier (>= 1.0.3)
+  vcr
+  webmock

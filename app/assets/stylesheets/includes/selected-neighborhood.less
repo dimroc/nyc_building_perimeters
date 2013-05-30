@@ -1,0 +1,61 @@
+.selectedNeighborhood {
+  position: fixed;
+  top: 20px;
+  left: 0px;
+  width: 100%;
+  background-color: transparent;
+
+  i.icon-search {
+    font-size: 35px;
+    vertical-align: middle;
+  }
+
+  form {
+    margin: 0 0 0 20px;
+
+    input {
+      .ellipsis;
+      width: 60%;
+
+      padding: 10px;
+      font-size: 28px;
+
+      background-color: @translucent-white;
+
+      &::-webkit-input-placeholder {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      &:-moz-placeholder {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      &::-moz-placeholder {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      &:-ms-input-placeholder {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+
+    span[role=status] {
+      display: none;
+    }
+  }
+}
+
+ul.typeahead {
+  background: @translucent-white;
+  width: 60%;
+
+  li {
+    font-size: 20px;
+
+    a {
+      .ellipsis;
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,2 @@
+This block has no video ready for playback.
+<%- JST["app/views/blockStats"](@) %>

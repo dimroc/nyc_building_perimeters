@@ -1,0 +1,18 @@
+defaults: &defaults
+  adapter: postgis
+  encoding: unicode
+  pool: 5
+  postgis_extension: postgis,postgis_topology
+  schema_search_path: public,topology
+
+development:
+  database: nbc_development
+  <<: *defaults
+
+test:
+  database: nbc_test
+  <<: *defaults
+
+production:
+  database: nbc_production
+  <<: *defaults

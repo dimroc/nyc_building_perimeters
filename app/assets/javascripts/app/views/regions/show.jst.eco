@@ -1,0 +1,12 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <i class="icon-th icon-white left"></i>
+    <h4 class="left"><%= @name %></h4>
+
+    <ul class="nav">
+      <li><a data-type="back">Back</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="world"></div>

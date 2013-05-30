@@ -1,0 +1,11 @@
+#!/bin/sh
+
+script_dir="`dirname $0`"
+database=$1
+
+if [ -z $database ]; then
+  echo Must specify a database
+  exit 1
+fi
+
+psql -d $database -f "${script_dir}/extensions.sql"

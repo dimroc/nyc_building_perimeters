@@ -1,0 +1,3022 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "6bic-qvek",
+      "name" : "Zip code breakdowns",
+      "attribution" : "Department of Youth and Community Development (DYCD)",
+      "averageRating" : 20,
+      "category" : "Statistics",
+      "createdAt" : 1318290465,
+      "description" : "Demographic statistics broken down by zip code\nUpdate Schedule: As required",
+      "displayType" : "table",
+      "downloadCount" : 248,
+      "numberOfComments" : 1,
+      "oid" : 343119,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1318290628,
+      "publicationGroup" : 244574,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1318290514,
+      "rowsUpdatedBy" : "txun-eb7e",
+      "signed" : false,
+      "tableId" : 244574,
+      "totalTimesRated" : 1,
+      "viewCount" : 802,
+      "viewLastModified" : 1319498358,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 3002841,
+        "name" : "JURISDICTION NAME",
+        "dataTypeName" : "number",
+        "fieldName" : "jurisdiction_name",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569974,
+        "width" : 264,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "10001",
+          "sum" : "2626013",
+          "null" : 0,
+          "average" : "11127.17372881356",
+          "largest" : "20459",
+          "top" : [ {
+            "count" : 1,
+            "item" : "10014"
+          }, {
+            "count" : 1,
+            "item" : "10454"
+          }, {
+            "count" : 1,
+            "item" : "10006"
+          }, {
+            "count" : 1,
+            "item" : "10017"
+          }, {
+            "count" : 1,
+            "item" : "11692"
+          }, {
+            "count" : 1,
+            "item" : "10036"
+          }, {
+            "count" : 1,
+            "item" : "11216"
+          }, {
+            "count" : 1,
+            "item" : "11385"
+          }, {
+            "count" : 1,
+            "item" : "11238"
+          }, {
+            "count" : 1,
+            "item" : "11374"
+          }, {
+            "count" : 1,
+            "item" : "11201"
+          }, {
+            "count" : 1,
+            "item" : "11102"
+          }, {
+            "count" : 1,
+            "item" : "11372"
+          }, {
+            "count" : 1,
+            "item" : "11220"
+          }, {
+            "count" : 1,
+            "item" : "11369"
+          }, {
+            "count" : 1,
+            "item" : "12528"
+          }, {
+            "count" : 1,
+            "item" : "11210"
+          }, {
+            "count" : 1,
+            "item" : "12783"
+          }, {
+            "count" : 1,
+            "item" : "10003"
+          }, {
+            "count" : 1,
+            "item" : "12786"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 3002842,
+        "name" : "COUNT PARTICIPANTS",
+        "dataTypeName" : "number",
+        "fieldName" : "count_participants",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569975,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4168",
+          "null" : 0,
+          "average" : "17.66101694915254",
+          "largest" : "272",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "52"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "27"
+          }, {
+            "count" : 3,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "44"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002843,
+        "name" : "COUNT FEMALE",
+        "dataTypeName" : "number",
+        "fieldName" : "count_female",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569976,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "2430",
+          "null" : 0,
+          "average" : "10.29661016949153",
+          "largest" : "194",
+          "top" : [ {
+            "count" : 139,
+            "item" : "0"
+          }, {
+            "count" : 12,
+            "item" : "2"
+          }, {
+            "count" : 10,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "3"
+          }, {
+            "count" : 6,
+            "item" : "12"
+          }, {
+            "count" : 6,
+            "item" : "17"
+          }, {
+            "count" : 5,
+            "item" : "4"
+          }, {
+            "count" : 5,
+            "item" : "6"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "5"
+          }, {
+            "count" : 2,
+            "item" : "11"
+          }, {
+            "count" : 2,
+            "item" : "53"
+          }, {
+            "count" : 2,
+            "item" : "39"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "50"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          }, {
+            "count" : 1,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "29"
+          }, {
+            "count" : 1,
+            "item" : "97"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002844,
+        "name" : "PERCENT FEMALE",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_female",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569977,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "57.58",
+          "null" : 0,
+          "average" : "0.2439830508474576",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 139,
+            "item" : "0"
+          }, {
+            "count" : 11,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "0.5"
+          }, {
+            "count" : 5,
+            "item" : "0.6"
+          }, {
+            "count" : 4,
+            "item" : "0.67"
+          }, {
+            "count" : 4,
+            "item" : "0.71"
+          }, {
+            "count" : 4,
+            "item" : "0.8"
+          }, {
+            "count" : 3,
+            "item" : "0.57"
+          }, {
+            "count" : 3,
+            "item" : "0.7"
+          }, {
+            "count" : 3,
+            "item" : "0.56"
+          }, {
+            "count" : 3,
+            "item" : "0.33"
+          }, {
+            "count" : 2,
+            "item" : "0.55"
+          }, {
+            "count" : 2,
+            "item" : "0.48"
+          }, {
+            "count" : 2,
+            "item" : "0.43"
+          }, {
+            "count" : 2,
+            "item" : "0.49"
+          }, {
+            "count" : 2,
+            "item" : "0.13"
+          }, {
+            "count" : 2,
+            "item" : "0.47"
+          }, {
+            "count" : 2,
+            "item" : "0.63"
+          }, {
+            "count" : 2,
+            "item" : "0.97"
+          }, {
+            "count" : 2,
+            "item" : "0.61"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002845,
+        "name" : "COUNT MALE",
+        "dataTypeName" : "number",
+        "fieldName" : "count_male",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569978,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "1738",
+          "null" : 0,
+          "average" : "7.364406779661017",
+          "largest" : "157",
+          "top" : [ {
+            "count" : 142,
+            "item" : "0"
+          }, {
+            "count" : 15,
+            "item" : "1"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 9,
+            "item" : "3"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 6,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "20"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 3,
+            "item" : "50"
+          }, {
+            "count" : 3,
+            "item" : "4"
+          }, {
+            "count" : 3,
+            "item" : "8"
+          }, {
+            "count" : 2,
+            "item" : "32"
+          }, {
+            "count" : 2,
+            "item" : "22"
+          }, {
+            "count" : 2,
+            "item" : "26"
+          }, {
+            "count" : 1,
+            "item" : "70"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "40"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002846,
+        "name" : "PERCENT MALE",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_male",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569979,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "47.44",
+          "null" : 0,
+          "average" : "0.2010169491525424",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 142,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "0.5"
+          }, {
+            "count" : 5,
+            "item" : "0.4"
+          }, {
+            "count" : 4,
+            "item" : "0.2"
+          }, {
+            "count" : 4,
+            "item" : "0.33"
+          }, {
+            "count" : 4,
+            "item" : "0.29"
+          }, {
+            "count" : 3,
+            "item" : "0.43"
+          }, {
+            "count" : 3,
+            "item" : "0.67"
+          }, {
+            "count" : 3,
+            "item" : "0.88"
+          }, {
+            "count" : 3,
+            "item" : "0.44"
+          }, {
+            "count" : 3,
+            "item" : "0.3"
+          }, {
+            "count" : 2,
+            "item" : "0.52"
+          }, {
+            "count" : 2,
+            "item" : "0.03"
+          }, {
+            "count" : 2,
+            "item" : "0.45"
+          }, {
+            "count" : 2,
+            "item" : "0.54"
+          }, {
+            "count" : 2,
+            "item" : "0.39"
+          }, {
+            "count" : 2,
+            "item" : "0.57"
+          }, {
+            "count" : 2,
+            "item" : "0.37"
+          }, {
+            "count" : 2,
+            "item" : "0.53"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002847,
+        "name" : "COUNT GENDER UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_gender_unknown",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569980,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002848,
+        "name" : "PERCENT GENDER UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_gender_unknown",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569981,
+        "width" : 364,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002849,
+        "name" : "COUNT GENDER TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "count_gender_total",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569982,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4168",
+          "null" : 0,
+          "average" : "17.66101694915254",
+          "largest" : "272",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "52"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "27"
+          }, {
+            "count" : 3,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "44"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002850,
+        "name" : "PERCENT GENDER TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_gender_total",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569983,
+        "width" : 340,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "10500",
+          "null" : 0,
+          "average" : "44.49152542372881",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 105,
+            "item" : "100"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002851,
+        "name" : "COUNT PACIFIC ISLANDER",
+        "dataTypeName" : "number",
+        "fieldName" : "count_pacific_islander",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569984,
+        "width" : 364,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "6",
+          "null" : 0,
+          "average" : "0.02542372881355932",
+          "largest" : "2",
+          "top" : [ {
+            "count" : 232,
+            "item" : "0"
+          }, {
+            "count" : 2,
+            "item" : "2"
+          }, {
+            "count" : 2,
+            "item" : "1"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002852,
+        "name" : "PERCENT PACIFIC ISLANDER",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_pacific_islander",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569985,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0.07",
+          "null" : 0,
+          "average" : "0.0002966101694915254",
+          "largest" : "0.02",
+          "top" : [ {
+            "count" : 232,
+            "item" : "0"
+          }, {
+            "count" : 3,
+            "item" : "0.02"
+          }, {
+            "count" : 1,
+            "item" : "0.01"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002853,
+        "name" : "COUNT HISPANIC LATINO",
+        "dataTypeName" : "number",
+        "fieldName" : "count_hispanic_latino",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569986,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "438",
+          "null" : 0,
+          "average" : "1.855932203389831",
+          "largest" : "51",
+          "top" : [ {
+            "count" : 182,
+            "item" : "0"
+          }, {
+            "count" : 14,
+            "item" : "1"
+          }, {
+            "count" : 8,
+            "item" : "2"
+          }, {
+            "count" : 5,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "7"
+          }, {
+            "count" : 3,
+            "item" : "6"
+          }, {
+            "count" : 3,
+            "item" : "14"
+          }, {
+            "count" : 3,
+            "item" : "9"
+          }, {
+            "count" : 2,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "16"
+          }, {
+            "count" : 1,
+            "item" : "36"
+          }, {
+            "count" : 1,
+            "item" : "15"
+          }, {
+            "count" : 1,
+            "item" : "24"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          }, {
+            "count" : 1,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "27"
+          }, {
+            "count" : 1,
+            "item" : "22"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "51"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002854,
+        "name" : "PERCENT HISPANIC LATINO",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_hispanic_latino",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569987,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "18.84",
+          "null" : 0,
+          "average" : "0.07983050847457627",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 184,
+            "item" : "0"
+          }, {
+            "count" : 5,
+            "item" : "0.43"
+          }, {
+            "count" : 4,
+            "item" : "0.6"
+          }, {
+            "count" : 4,
+            "item" : "0.33"
+          }, {
+            "count" : 3,
+            "item" : "0.01"
+          }, {
+            "count" : 3,
+            "item" : "0.14"
+          }, {
+            "count" : 3,
+            "item" : "0.5"
+          }, {
+            "count" : 2,
+            "item" : "0.13"
+          }, {
+            "count" : 2,
+            "item" : "0.4"
+          }, {
+            "count" : 1,
+            "item" : "0.04"
+          }, {
+            "count" : 1,
+            "item" : "0.22"
+          }, {
+            "count" : 1,
+            "item" : "0.47"
+          }, {
+            "count" : 1,
+            "item" : "0.63"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "0.03"
+          }, {
+            "count" : 1,
+            "item" : "0.21"
+          }, {
+            "count" : 1,
+            "item" : "0.1"
+          }, {
+            "count" : 1,
+            "item" : "0.06"
+          }, {
+            "count" : 1,
+            "item" : "0.15"
+          }, {
+            "count" : 1,
+            "item" : "0.35"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002855,
+        "name" : "COUNT AMERICAN INDIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_american_indian",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569988,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "5",
+          "null" : 0,
+          "average" : "0.02118644067796610",
+          "largest" : "2",
+          "top" : [ {
+            "count" : 232,
+            "item" : "0"
+          }, {
+            "count" : 3,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002856,
+        "name" : "PERCENT AMERICAN INDIAN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_american_indian",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569989,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0.24",
+          "null" : 0,
+          "average" : "0.001016949152542373",
+          "largest" : "0.2",
+          "top" : [ {
+            "count" : 232,
+            "item" : "0"
+          }, {
+            "count" : 2,
+            "item" : "0.01"
+          }, {
+            "count" : 1,
+            "item" : "0.02"
+          }, {
+            "count" : 1,
+            "item" : "0.2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002857,
+        "name" : "COUNT ASIAN NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "count_asian_non_hispanic",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569990,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "124",
+          "null" : 0,
+          "average" : "0.5254237288135593",
+          "largest" : "28",
+          "top" : [ {
+            "count" : 195,
+            "item" : "0"
+          }, {
+            "count" : 26,
+            "item" : "1"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 3,
+            "item" : "7"
+          }, {
+            "count" : 2,
+            "item" : "4"
+          }, {
+            "count" : 2,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "2"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "28"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002858,
+        "name" : "PERCENT ASIAN NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_asian_non_hispanic",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569991,
+        "width" : 412,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "13.35",
+          "null" : 0,
+          "average" : "0.05656779661016949",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 196,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "1"
+          }, {
+            "count" : 4,
+            "item" : "0.5"
+          }, {
+            "count" : 3,
+            "item" : "0.04"
+          }, {
+            "count" : 3,
+            "item" : "0.08"
+          }, {
+            "count" : 3,
+            "item" : "0.03"
+          }, {
+            "count" : 3,
+            "item" : "0.07"
+          }, {
+            "count" : 3,
+            "item" : "0.02"
+          }, {
+            "count" : 2,
+            "item" : "0.2"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.06"
+          }, {
+            "count" : 2,
+            "item" : "0.14"
+          }, {
+            "count" : 1,
+            "item" : "0.13"
+          }, {
+            "count" : 1,
+            "item" : "0.56"
+          }, {
+            "count" : 1,
+            "item" : "0.09"
+          }, {
+            "count" : 1,
+            "item" : "0.05"
+          }, {
+            "count" : 1,
+            "item" : "0.8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002859,
+        "name" : "COUNT WHITE NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "count_white_non_hispanic",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569992,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "2877",
+          "null" : 0,
+          "average" : "12.19067796610169",
+          "largest" : "262",
+          "top" : [ {
+            "count" : 173,
+            "item" : "0"
+          }, {
+            "count" : 12,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "4"
+          }, {
+            "count" : 3,
+            "item" : "2"
+          }, {
+            "count" : 3,
+            "item" : "11"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "95"
+          }, {
+            "count" : 2,
+            "item" : "13"
+          }, {
+            "count" : 2,
+            "item" : "3"
+          }, {
+            "count" : 2,
+            "item" : "36"
+          }, {
+            "count" : 2,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "32"
+          }, {
+            "count" : 1,
+            "item" : "50"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          }, {
+            "count" : 1,
+            "item" : "35"
+          }, {
+            "count" : 1,
+            "item" : "19"
+          }, {
+            "count" : 1,
+            "item" : "28"
+          }, {
+            "count" : 1,
+            "item" : "216"
+          }, {
+            "count" : 1,
+            "item" : "243"
+          }, {
+            "count" : 1,
+            "item" : "62"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002860,
+        "name" : "PERCENT WHITE NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_white_non_hispanic",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569993,
+        "width" : 412,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "41.95",
+          "null" : 0,
+          "average" : "0.1777542372881356",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 173,
+            "item" : "0"
+          }, {
+            "count" : 13,
+            "item" : "1"
+          }, {
+            "count" : 4,
+            "item" : "0.97"
+          }, {
+            "count" : 3,
+            "item" : "0.75"
+          }, {
+            "count" : 3,
+            "item" : "0.02"
+          }, {
+            "count" : 3,
+            "item" : "0.96"
+          }, {
+            "count" : 2,
+            "item" : "0.04"
+          }, {
+            "count" : 2,
+            "item" : "0.17"
+          }, {
+            "count" : 2,
+            "item" : "0.05"
+          }, {
+            "count" : 2,
+            "item" : "0.95"
+          }, {
+            "count" : 2,
+            "item" : "0.87"
+          }, {
+            "count" : 2,
+            "item" : "0.88"
+          }, {
+            "count" : 1,
+            "item" : "0.64"
+          }, {
+            "count" : 1,
+            "item" : "0.13"
+          }, {
+            "count" : 1,
+            "item" : "0.91"
+          }, {
+            "count" : 1,
+            "item" : "0.99"
+          }, {
+            "count" : 1,
+            "item" : "0.63"
+          }, {
+            "count" : 1,
+            "item" : "0.03"
+          }, {
+            "count" : 1,
+            "item" : "0.72"
+          }, {
+            "count" : 1,
+            "item" : "0.1"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002861,
+        "name" : "COUNT BLACK NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "count_black_non_hispanic",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569994,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "527",
+          "null" : 0,
+          "average" : "2.233050847457627",
+          "largest" : "60",
+          "top" : [ {
+            "count" : 180,
+            "item" : "0"
+          }, {
+            "count" : 12,
+            "item" : "1"
+          }, {
+            "count" : 7,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 3,
+            "item" : "15"
+          }, {
+            "count" : 3,
+            "item" : "8"
+          }, {
+            "count" : 3,
+            "item" : "3"
+          }, {
+            "count" : 2,
+            "item" : "10"
+          }, {
+            "count" : 2,
+            "item" : "18"
+          }, {
+            "count" : 2,
+            "item" : "12"
+          }, {
+            "count" : 2,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "50"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "36"
+          }, {
+            "count" : 1,
+            "item" : "20"
+          }, {
+            "count" : 1,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "23"
+          }, {
+            "count" : 1,
+            "item" : "9"
+          }, {
+            "count" : 1,
+            "item" : "47"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002862,
+        "name" : "PERCENT BLACK NON HISPANIC",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_black_non_hispanic",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569995,
+        "width" : 412,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "24.60",
+          "null" : 0,
+          "average" : "0.1042372881355932",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 180,
+            "item" : "0"
+          }, {
+            "count" : 7,
+            "item" : "0.5"
+          }, {
+            "count" : 3,
+            "item" : "0.57"
+          }, {
+            "count" : 3,
+            "item" : "1"
+          }, {
+            "count" : 3,
+            "item" : "0.44"
+          }, {
+            "count" : 2,
+            "item" : "0.04"
+          }, {
+            "count" : 2,
+            "item" : "0.31"
+          }, {
+            "count" : 2,
+            "item" : "0.47"
+          }, {
+            "count" : 2,
+            "item" : "0.37"
+          }, {
+            "count" : 2,
+            "item" : "0.6"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.01"
+          }, {
+            "count" : 2,
+            "item" : "0.56"
+          }, {
+            "count" : 1,
+            "item" : "0.64"
+          }, {
+            "count" : 1,
+            "item" : "0.03"
+          }, {
+            "count" : 1,
+            "item" : "0.45"
+          }, {
+            "count" : 1,
+            "item" : "0.15"
+          }, {
+            "count" : 1,
+            "item" : "0.75"
+          }, {
+            "count" : 1,
+            "item" : "0.17"
+          }, {
+            "count" : 1,
+            "item" : "0.74"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002863,
+        "name" : "COUNT OTHER ETHNICITY",
+        "dataTypeName" : "number",
+        "fieldName" : "count_other_ethnicity",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569996,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "162",
+          "null" : 0,
+          "average" : "0.6864406779661017",
+          "largest" : "17",
+          "top" : [ {
+            "count" : 182,
+            "item" : "0"
+          }, {
+            "count" : 20,
+            "item" : "1"
+          }, {
+            "count" : 11,
+            "item" : "2"
+          }, {
+            "count" : 7,
+            "item" : "3"
+          }, {
+            "count" : 6,
+            "item" : "6"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 3,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "7"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002864,
+        "name" : "PERCENT OTHER ETHNICITY",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_other_ethnicity",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569997,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "5.03",
+          "null" : 0,
+          "average" : "0.02131355932203390",
+          "largest" : "0.5",
+          "top" : [ {
+            "count" : 182,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "0.02"
+          }, {
+            "count" : 7,
+            "item" : "0.07"
+          }, {
+            "count" : 6,
+            "item" : "0.05"
+          }, {
+            "count" : 5,
+            "item" : "0.03"
+          }, {
+            "count" : 4,
+            "item" : "0.06"
+          }, {
+            "count" : 3,
+            "item" : "0.09"
+          }, {
+            "count" : 2,
+            "item" : "0.04"
+          }, {
+            "count" : 2,
+            "item" : "0.13"
+          }, {
+            "count" : 2,
+            "item" : "0.08"
+          }, {
+            "count" : 2,
+            "item" : "0.2"
+          }, {
+            "count" : 2,
+            "item" : "0.12"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.5"
+          }, {
+            "count" : 2,
+            "item" : "0.01"
+          }, {
+            "count" : 1,
+            "item" : "0.18"
+          }, {
+            "count" : 1,
+            "item" : "0.33"
+          }, {
+            "count" : 1,
+            "item" : "0.16"
+          }, {
+            "count" : 1,
+            "item" : "0.14"
+          }, {
+            "count" : 1,
+            "item" : "0.25"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002865,
+        "name" : "COUNT ETHNICITY UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_ethnicity_unknown",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569998,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "29",
+          "null" : 0,
+          "average" : "0.1228813559322034",
+          "largest" : "5",
+          "top" : [ {
+            "count" : 219,
+            "item" : "0"
+          }, {
+            "count" : 13,
+            "item" : "1"
+          }, {
+            "count" : 2,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "2"
+          }, {
+            "count" : 1,
+            "item" : "4"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002866,
+        "name" : "PERCENT ETHNICITY UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_ethnicity_unknown",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1569999,
+        "width" : 400,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0.93",
+          "null" : 0,
+          "average" : "0.003940677966101695",
+          "largest" : "0.25",
+          "top" : [ {
+            "count" : 221,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "0.02"
+          }, {
+            "count" : 2,
+            "item" : "0.01"
+          }, {
+            "count" : 2,
+            "item" : "0.25"
+          }, {
+            "count" : 1,
+            "item" : "0.06"
+          }, {
+            "count" : 1,
+            "item" : "0.05"
+          }, {
+            "count" : 1,
+            "item" : "0.14"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002867,
+        "name" : "COUNT ETHNICITY TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "count_ethnicity_total",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570000,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4168",
+          "null" : 0,
+          "average" : "17.66101694915254",
+          "largest" : "272",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "52"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "27"
+          }, {
+            "count" : 3,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "44"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002868,
+        "name" : "PERCENT ETHNICITY TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_ethnicity_total",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570001,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "10491",
+          "null" : 0,
+          "average" : "44.45338983050847",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 96,
+            "item" : "100"
+          }, {
+            "count" : 9,
+            "item" : "99"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002869,
+        "name" : "COUNT PERMANENT RESIDENT ALIEN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_permanent_resident_alien",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570002,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "105",
+          "null" : 0,
+          "average" : "0.4449152542372881",
+          "largest" : "10",
+          "top" : [ {
+            "count" : 187,
+            "item" : "0"
+          }, {
+            "count" : 24,
+            "item" : "1"
+          }, {
+            "count" : 13,
+            "item" : "2"
+          }, {
+            "count" : 7,
+            "item" : "3"
+          }, {
+            "count" : 2,
+            "item" : "6"
+          }, {
+            "count" : 1,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "8"
+          }, {
+            "count" : 1,
+            "item" : "10"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002870,
+        "name" : "PERCENT PERMANENT RESIDENT ALIEN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_permanent_resident_alien",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570003,
+        "width" : 484,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "5.71",
+          "null" : 0,
+          "average" : "0.02419491525423729",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 189,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "0.06"
+          }, {
+            "count" : 6,
+            "item" : "0.02"
+          }, {
+            "count" : 5,
+            "item" : "0.05"
+          }, {
+            "count" : 4,
+            "item" : "0.07"
+          }, {
+            "count" : 3,
+            "item" : "0.01"
+          }, {
+            "count" : 2,
+            "item" : "0.04"
+          }, {
+            "count" : 2,
+            "item" : "0.03"
+          }, {
+            "count" : 2,
+            "item" : "0.2"
+          }, {
+            "count" : 2,
+            "item" : "0.09"
+          }, {
+            "count" : 2,
+            "item" : "0.1"
+          }, {
+            "count" : 2,
+            "item" : "0.29"
+          }, {
+            "count" : 2,
+            "item" : "0.5"
+          }, {
+            "count" : 2,
+            "item" : "0.14"
+          }, {
+            "count" : 1,
+            "item" : "0.08"
+          }, {
+            "count" : 1,
+            "item" : "1"
+          }, {
+            "count" : 1,
+            "item" : "0.33"
+          }, {
+            "count" : 1,
+            "item" : "0.11"
+          }, {
+            "count" : 1,
+            "item" : "0.25"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002871,
+        "name" : "COUNT US CITIZEN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_us_citizen",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570004,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4052",
+          "null" : 0,
+          "average" : "17.16949152542373",
+          "largest" : "271",
+          "top" : [ {
+            "count" : 132,
+            "item" : "0"
+          }, {
+            "count" : 8,
+            "item" : "2"
+          }, {
+            "count" : 8,
+            "item" : "1"
+          }, {
+            "count" : 7,
+            "item" : "5"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "11"
+          }, {
+            "count" : 3,
+            "item" : "8"
+          }, {
+            "count" : 3,
+            "item" : "10"
+          }, {
+            "count" : 3,
+            "item" : "48"
+          }, {
+            "count" : 3,
+            "item" : "3"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "25"
+          }, {
+            "count" : 2,
+            "item" : "6"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "102"
+          }, {
+            "count" : 2,
+            "item" : "13"
+          }, {
+            "count" : 2,
+            "item" : "12"
+          }, {
+            "count" : 2,
+            "item" : "36"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002872,
+        "name" : "PERCENT US CITIZEN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_us_citizen",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570005,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "98.81",
+          "null" : 0,
+          "average" : "0.4186864406779661",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 132,
+            "item" : "0"
+          }, {
+            "count" : 57,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "0.94"
+          }, {
+            "count" : 5,
+            "item" : "0.92"
+          }, {
+            "count" : 5,
+            "item" : "0.98"
+          }, {
+            "count" : 4,
+            "item" : "0.93"
+          }, {
+            "count" : 4,
+            "item" : "0.95"
+          }, {
+            "count" : 3,
+            "item" : "0.99"
+          }, {
+            "count" : 2,
+            "item" : "0.86"
+          }, {
+            "count" : 2,
+            "item" : "0.97"
+          }, {
+            "count" : 2,
+            "item" : "0.67"
+          }, {
+            "count" : 2,
+            "item" : "0.89"
+          }, {
+            "count" : 2,
+            "item" : "0.71"
+          }, {
+            "count" : 2,
+            "item" : "0.96"
+          }, {
+            "count" : 2,
+            "item" : "0.5"
+          }, {
+            "count" : 2,
+            "item" : "0.9"
+          }, {
+            "count" : 2,
+            "item" : "0.8"
+          }, {
+            "count" : 1,
+            "item" : "0.91"
+          }, {
+            "count" : 1,
+            "item" : "0.75"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002873,
+        "name" : "COUNT OTHER CITIZEN STATUS",
+        "dataTypeName" : "number",
+        "fieldName" : "count_other_citizen_status",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570006,
+        "width" : 412,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "11",
+          "null" : 0,
+          "average" : "0.04661016949152542",
+          "largest" : "2",
+          "top" : [ {
+            "count" : 227,
+            "item" : "0"
+          }, {
+            "count" : 7,
+            "item" : "1"
+          }, {
+            "count" : 2,
+            "item" : "2"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002874,
+        "name" : "PERCENT OTHER CITIZEN STATUS",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_other_citizen_status",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570007,
+        "width" : 436,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0.49",
+          "null" : 0,
+          "average" : "0.002076271186440678",
+          "largest" : "0.33",
+          "top" : [ {
+            "count" : 227,
+            "item" : "0"
+          }, {
+            "count" : 3,
+            "item" : "0.02"
+          }, {
+            "count" : 3,
+            "item" : "0.01"
+          }, {
+            "count" : 1,
+            "item" : "0.04"
+          }, {
+            "count" : 1,
+            "item" : "0.03"
+          }, {
+            "count" : 1,
+            "item" : "0.33"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002875,
+        "name" : "COUNT CITIZEN STATUS UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_citizen_status_unknown",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570008,
+        "width" : 436,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002876,
+        "name" : "PERCENT CITIZEN STATUS UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_citizen_status_unknown",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570009,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002877,
+        "name" : "COUNT CITIZEN STATUS TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "count_citizen_status_total",
+        "position" : 37,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570010,
+        "width" : 412,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4168",
+          "null" : 0,
+          "average" : "17.66101694915254",
+          "largest" : "272",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "52"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "27"
+          }, {
+            "count" : 3,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "44"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002878,
+        "name" : "PERCENT CITIZEN STATUS TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_citizen_status_total",
+        "position" : 38,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570011,
+        "width" : 436,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "10499",
+          "null" : 0,
+          "average" : "44.48728813559322",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 104,
+            "item" : "100"
+          }, {
+            "count" : 1,
+            "item" : "99"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002879,
+        "name" : "COUNT RECEIVES PUBLIC ASSISTANCE",
+        "dataTypeName" : "number",
+        "fieldName" : "count_receives_public_assistance",
+        "position" : 39,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570012,
+        "width" : 484,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "1410",
+          "null" : 0,
+          "average" : "5.974576271186441",
+          "largest" : "155",
+          "top" : [ {
+            "count" : 150,
+            "item" : "0"
+          }, {
+            "count" : 12,
+            "item" : "1"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 9,
+            "item" : "5"
+          }, {
+            "count" : 7,
+            "item" : "8"
+          }, {
+            "count" : 6,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "20"
+          }, {
+            "count" : 3,
+            "item" : "19"
+          }, {
+            "count" : 3,
+            "item" : "4"
+          }, {
+            "count" : 3,
+            "item" : "21"
+          }, {
+            "count" : 3,
+            "item" : "7"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "22"
+          }, {
+            "count" : 2,
+            "item" : "23"
+          }, {
+            "count" : 2,
+            "item" : "9"
+          }, {
+            "count" : 2,
+            "item" : "17"
+          }, {
+            "count" : 1,
+            "item" : "70"
+          }, {
+            "count" : 1,
+            "item" : "61"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          }, {
+            "count" : 1,
+            "item" : "71"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002880,
+        "name" : "PERCENT RECEIVES PUBLIC ASSISTANCE",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_receives_public_assistance",
+        "position" : 40,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570013,
+        "width" : 508,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "32.85",
+          "null" : 0,
+          "average" : "0.1391949152542373",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 150,
+            "item" : "0"
+          }, {
+            "count" : 7,
+            "item" : "0.4"
+          }, {
+            "count" : 4,
+            "item" : "1"
+          }, {
+            "count" : 4,
+            "item" : "0.2"
+          }, {
+            "count" : 4,
+            "item" : "0.57"
+          }, {
+            "count" : 4,
+            "item" : "0.26"
+          }, {
+            "count" : 3,
+            "item" : "0.25"
+          }, {
+            "count" : 3,
+            "item" : "0.18"
+          }, {
+            "count" : 3,
+            "item" : "0.08"
+          }, {
+            "count" : 3,
+            "item" : "0.24"
+          }, {
+            "count" : 3,
+            "item" : "0.29"
+          }, {
+            "count" : 2,
+            "item" : "0.73"
+          }, {
+            "count" : 2,
+            "item" : "0.52"
+          }, {
+            "count" : 2,
+            "item" : "0.42"
+          }, {
+            "count" : 2,
+            "item" : "0.45"
+          }, {
+            "count" : 2,
+            "item" : "0.43"
+          }, {
+            "count" : 2,
+            "item" : "0.38"
+          }, {
+            "count" : 2,
+            "item" : "0.3"
+          }, {
+            "count" : 2,
+            "item" : "0.31"
+          }, {
+            "count" : 2,
+            "item" : "0.37"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002881,
+        "name" : "COUNT NRECEIVES PUBLIC ASSISTANCE",
+        "dataTypeName" : "number",
+        "fieldName" : "count_nreceives_public_assistance",
+        "position" : 41,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570014,
+        "width" : 496,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "2758",
+          "null" : 0,
+          "average" : "11.68644067796610",
+          "largest" : "206",
+          "top" : [ {
+            "count" : 135,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 9,
+            "item" : "3"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "6"
+          }, {
+            "count" : 5,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "8"
+          }, {
+            "count" : 3,
+            "item" : "16"
+          }, {
+            "count" : 3,
+            "item" : "5"
+          }, {
+            "count" : 3,
+            "item" : "9"
+          }, {
+            "count" : 3,
+            "item" : "10"
+          }, {
+            "count" : 3,
+            "item" : "12"
+          }, {
+            "count" : 2,
+            "item" : "58"
+          }, {
+            "count" : 2,
+            "item" : "28"
+          }, {
+            "count" : 2,
+            "item" : "48"
+          }, {
+            "count" : 2,
+            "item" : "13"
+          }, {
+            "count" : 2,
+            "item" : "33"
+          }, {
+            "count" : 2,
+            "item" : "14"
+          }, {
+            "count" : 2,
+            "item" : "7"
+          }, {
+            "count" : 1,
+            "item" : "11"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002882,
+        "name" : "PERCENT NRECEIVES PUBLIC ASSISTANCE",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_nreceives_public_assistance",
+        "position" : 42,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570015,
+        "width" : 520,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "72.17",
+          "null" : 0,
+          "average" : "0.3058050847457627",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 135,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "1"
+          }, {
+            "count" : 7,
+            "item" : "0.6"
+          }, {
+            "count" : 4,
+            "item" : "0.43"
+          }, {
+            "count" : 4,
+            "item" : "0.8"
+          }, {
+            "count" : 4,
+            "item" : "0.74"
+          }, {
+            "count" : 3,
+            "item" : "0.71"
+          }, {
+            "count" : 3,
+            "item" : "0.75"
+          }, {
+            "count" : 3,
+            "item" : "0.92"
+          }, {
+            "count" : 3,
+            "item" : "0.76"
+          }, {
+            "count" : 3,
+            "item" : "0.82"
+          }, {
+            "count" : 2,
+            "item" : "0.55"
+          }, {
+            "count" : 2,
+            "item" : "0.58"
+          }, {
+            "count" : 2,
+            "item" : "0.48"
+          }, {
+            "count" : 2,
+            "item" : "0.57"
+          }, {
+            "count" : 2,
+            "item" : "0.63"
+          }, {
+            "count" : 2,
+            "item" : "0.27"
+          }, {
+            "count" : 2,
+            "item" : "0.7"
+          }, {
+            "count" : 2,
+            "item" : "0.69"
+          }, {
+            "count" : 2,
+            "item" : "0.62"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002883,
+        "name" : "COUNT PUBLIC ASSISTANCE UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "count_public_assistance_unknown",
+        "position" : 43,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570016,
+        "width" : 472,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002884,
+        "name" : "PERCENT PUBLIC ASSISTANCE UNKNOWN",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_public_assistance_unknown",
+        "position" : 44,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570017,
+        "width" : 496,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "0",
+          "null" : 0,
+          "average" : "0",
+          "largest" : "0",
+          "top" : [ {
+            "count" : 236,
+            "item" : "0"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002885,
+        "name" : "COUNT PUBLIC ASSISTANCE TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "count_public_assistance_total",
+        "position" : 45,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570018,
+        "width" : 448,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "4168",
+          "null" : 0,
+          "average" : "17.66101694915254",
+          "largest" : "272",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 9,
+            "item" : "2"
+          }, {
+            "count" : 6,
+            "item" : "1"
+          }, {
+            "count" : 6,
+            "item" : "5"
+          }, {
+            "count" : 5,
+            "item" : "7"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 4,
+            "item" : "4"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 4,
+            "item" : "3"
+          }, {
+            "count" : 4,
+            "item" : "52"
+          }, {
+            "count" : 3,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "27"
+          }, {
+            "count" : 3,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "37"
+          }, {
+            "count" : 2,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "35"
+          }, {
+            "count" : 2,
+            "item" : "21"
+          }, {
+            "count" : 2,
+            "item" : "15"
+          }, {
+            "count" : 2,
+            "item" : "44"
+          }, {
+            "count" : 2,
+            "item" : "8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002886,
+        "name" : "PERCENT PUBLIC ASSISTANCE TOTAL",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_public_assistance_total",
+        "position" : 46,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1570019,
+        "width" : 472,
+        "cachedContents" : {
+          "non_null" : 236,
+          "smallest" : "0",
+          "sum" : "10500",
+          "null" : 0,
+          "average" : "44.49152542372881",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 131,
+            "item" : "0"
+          }, {
+            "count" : 105,
+            "item" : "100"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert W.",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1340923956,
+        "roleName" : "administrator",
+        "screenName" : "Albert W.",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "query" : {
+      },
+      "ratings" : {
+        "rating" : 20
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert W.",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1340923956,
+        "roleName" : "administrator",
+        "screenName" : "Albert W.",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "tags" : [ "boundary", "district", "community", "demography", "demographic", "statistic", "youth", "development", "zip", "code", "zip code", "area" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "F32D85D7-49EF-4A14-9211-17E129BBD5D8", 1, 1318290493, "392904", 1318290493, "392904", "{\n}", "10001", "44", "22", "0.5", "22", "0.5", "0", "0", "44", "100", "0", "0", "16", "0.36", "0", "0", "3", "0.07", "1", "0.02", "21", "0.48", "3", "0.07", "0", "0", "44", "100", "2", "0.05", "42", "0.95", "0", "0", "0", "0", "44", "100", "20", "0.45", "24", "0.55", "0", "0", "44", "100" ]
+, [ 2, "07A34AF3-138D-44B1-A0C3-35669B942E7D", 2, 1318290493, "392904", 1318290493, "392904", "{\n}", "10002", "35", "19", "0.54", "16", "0.46", "0", "0", "35", "100", "0", "0", "1", "0.03", "0", "0", "28", "0.8", "6", "0.17", "0", "0", "0", "0", "0", "0", "35", "100", "2", "0.06", "33", "0.94", "0", "0", "0", "0", "35", "100", "2", "0.06", "33", "0.94", "0", "0", "35", "100" ]
+, [ 3, "D449AC69-C014-4A8F-9CB0-CD299D7D1897", 3, 1318290493, "392904", 1318290493, "392904", "{\n}", "10003", "1", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "1", "100" ]
+, [ 4, "19066252-09B3-4D93-B1FC-EFD5242F21E9", 4, 1318290493, "392904", 1318290493, "392904", "{\n}", "10004", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 5, "0E39D18F-6C93-48DB-BA12-B27F96024FC2", 5, 1318290493, "392904", 1318290493, "392904", "{\n}", "10005", "2", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "1", "0.5", "0", "0", "0", "0", "2", "100", "1", "0.5", "1", "0.5", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 6, "D89DFA66-63DE-4B67-94F2-05AB4A8F89EB", 6, 1318290493, "392904", 1318290493, "392904", "{\n}", "10006", "6", "2", "0.33", "4", "0.67", "0", "0", "6", "100", "0", "0", "2", "0.33", "0", "0", "0", "0", "1", "0.17", "3", "0.5", "0", "0", "0", "0", "6", "100", "0", "0", "6", "1", "0", "0", "0", "0", "6", "100", "0", "0", "6", "1", "0", "0", "6", "100" ]
+, [ 7, "71D72EB4-2719-4576-B109-A5109E712382", 7, 1318290493, "392904", 1318290493, "392904", "{\n}", "10007", "1", "0", "0", "1", "1", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "1", "1", "0", "0", "0", "0", "1", "100" ]
+, [ 8, "A449BB1D-104C-4865-A22C-AA571EACAFD9", 8, 1318290493, "392904", 1318290493, "392904", "{\n}", "10009", "2", "0", "0", "2", "1", "0", "0", "2", "100", "0", "0", "0", "0", "0", "0", "2", "1", "0", "0", "0", "0", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 9, "B0EC9C74-3F3A-408A-8829-FEF3507E230F", 9, 1318290493, "392904", 1318290493, "392904", "{\n}", "10010", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 10, "FBB202A7-075F-48E9-A3EF-413CE7330392", 10, 1318290493, "392904", 1318290493, "392904", "{\n}", "10011", "3", "2", "0.67", "1", "0.33", "0", "0", "3", "100", "0", "0", "1", "0.33", "0", "0", "0", "0", "0", "0", "1", "0.33", "1", "0.33", "0", "0", "3", "99", "0", "0", "3", "1", "0", "0", "0", "0", "3", "100", "0", "0", "3", "1", "0", "0", "3", "100" ]
+, [ 11, "61EB436A-7024-4211-91A5-3E351CF89E87", 11, 1318290493, "392904", 1318290493, "392904", "{\n}", "10012", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 12, "D969A6A6-6EFE-4182-83BE-32A1387C8789", 12, 1318290493, "392904", 1318290493, "392904", "{\n}", "10013", "8", "1", "0.13", "7", "0.88", "0", "0", "8", "100", "0", "0", "0", "0", "0", "0", "8", "1", "0", "0", "0", "0", "0", "0", "0", "0", "8", "100", "0", "0", "8", "1", "0", "0", "0", "0", "8", "100", "1", "0.13", "7", "0.88", "0", "0", "8", "100" ]
+, [ 13, "24C22F10-CE5A-4151-AF05-013B30148034", 13, 1318290493, "392904", 1318290493, "392904", "{\n}", "10014", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 14, "4FC8B00D-594A-4ECA-83C1-DE37626A9691", 14, 1318290493, "392904", 1318290493, "392904", "{\n}", "10016", "17", "12", "0.71", "5", "0.29", "0", "0", "17", "100", "0", "0", "9", "0.53", "0", "0", "0", "0", "0", "0", "8", "0.47", "0", "0", "0", "0", "17", "100", "0", "0", "17", "1", "0", "0", "0", "0", "17", "100", "9", "0.53", "8", "0.47", "0", "0", "17", "100" ]
+, [ 15, "E285E612-10DA-4E2E-8953-C8C7271AAF6F", 15, 1318290493, "392904", 1318290493, "392904", "{\n}", "10017", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 16, "1320C7C0-0A79-459C-9882-1675F4CC611A", 16, 1318290493, "392904", 1318290493, "392904", "{\n}", "10018", "3", "2", "0.67", "1", "0.33", "0", "0", "3", "100", "0", "0", "0", "0", "0", "0", "3", "1", "0", "0", "0", "0", "0", "0", "0", "0", "3", "100", "1", "0.33", "2", "0.67", "0", "0", "0", "0", "3", "100", "0", "0", "3", "1", "0", "0", "3", "100" ]
+, [ 17, "C6A9880F-E308-43EE-97B2-143E42C07675", 17, 1318290493, "392904", 1318290493, "392904", "{\n}", "10019", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 18, "DFB86562-E884-4FA9-8BD2-0B15C93E4F73", 18, 1318290493, "392904", 1318290493, "392904", "{\n}", "10020", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 19, "DFDD783D-E727-435F-B173-A5E7EDD39640", 19, 1318290493, "392904", 1318290493, "392904", "{\n}", "10021", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 20, "C04A9F6C-FFFE-4D49-8E72-D14B23F6C2C7", 20, 1318290493, "392904", 1318290493, "392904", "{\n}", "10022", "1", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "1", "100" ]
+, [ 21, "6AB26F79-CC32-4D5D-8D1F-44F99CCDF123", 21, 1318290493, "392904", 1318290493, "392904", "{\n}", "10023", "7", "5", "0.71", "2", "0.29", "0", "0", "7", "100", "0", "0", "3", "0.43", "0", "0", "1", "0.14", "0", "0", "3", "0.43", "0", "0", "0", "0", "7", "100", "0", "0", "7", "1", "0", "0", "0", "0", "7", "100", "5", "0.71", "2", "0.29", "0", "0", "7", "100" ]
+, [ 22, "5488F919-9804-4C54-A4F7-663D9F3FC73B", 22, 1318290493, "392904", 1318290493, "392904", "{\n}", "10024", "4", "4", "1", "0", "0", "0", "0", "4", "100", "0", "0", "0", "0", "0", "0", "0", "0", "3", "0.75", "0", "0", "0", "0", "1", "0.25", "4", "100", "0", "0", "4", "1", "0", "0", "0", "0", "4", "100", "1", "0.25", "3", "0.75", "0", "0", "4", "100" ]
+, [ 23, "382A3283-8EE2-4EB4-BC53-AC65B5C2215B", 23, 1318290493, "392904", 1318290493, "392904", "{\n}", "10025", "27", "17", "0.63", "10", "0.37", "0", "0", "27", "100", "0", "0", "15", "0.56", "0", "0", "0", "0", "0", "0", "11", "0.41", "1", "0.04", "0", "0", "27", "100", "3", "0.11", "24", "0.89", "0", "0", "0", "0", "27", "100", "8", "0.3", "19", "0.7", "0", "0", "27", "100" ]
+, [ 24, "1399928F-B41C-4621-8D0F-AAD045D70CDD", 24, 1318290493, "392904", 1318290493, "392904", "{\n}", "10026", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 25, "0348DD95-DDF8-4CA1-BA64-962D81B45AC0", 25, 1318290493, "392904", 1318290493, "392904", "{\n}", "10027", "7", "4", "0.57", "3", "0.43", "0", "0", "7", "100", "0", "0", "1", "0.14", "0", "0", "1", "0.14", "0", "0", "4", "0.57", "1", "0.14", "0", "0", "7", "99", "1", "0.14", "6", "0.86", "0", "0", "0", "0", "7", "100", "1", "0.14", "6", "0.86", "0", "0", "7", "100" ]
+, [ 26, "38E37B40-9231-416C-A221-2D37A793BFCF", 26, 1318290493, "392904", 1318290493, "392904", "{\n}", "10028", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 27, "37DBBFC6-4E59-484F-B816-67B0A39DD205", 27, 1318290493, "392904", 1318290493, "392904", "{\n}", "10029", "20", "13", "0.65", "7", "0.35", "0", "0", "20", "100", "0", "0", "4", "0.2", "0", "0", "0", "0", "0", "0", "15", "0.75", "1", "0.05", "0", "0", "20", "100", "0", "0", "20", "1", "0", "0", "0", "0", "20", "100", "8", "0.4", "12", "0.6", "0", "0", "20", "100" ]
+, [ 28, "25EDA8BA-2495-4B8E-B0C3-8DF0CB317980", 28, 1318290493, "392904", 1318290493, "392904", "{\n}", "10030", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 29, "C1C0B2A2-F8F4-4312-90C3-72E6F2014C1E", 29, 1318290493, "392904", 1318290493, "392904", "{\n}", "10031", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 30, "1F16C3BF-E9BB-4C91-90D3-E254FBE3C9C6", 30, 1318290493, "392904", 1318290493, "392904", "{\n}", "10032", "13", "4", "0.31", "9", "0.69", "0", "0", "13", "100", "0", "0", "9", "0.69", "0", "0", "1", "0.08", "0", "0", "2", "0.15", "1", "0.08", "0", "0", "13", "100", "1", "0.08", "12", "0.92", "0", "0", "0", "0", "13", "100", "5", "0.38", "8", "0.62", "0", "0", "13", "100" ]
+, [ 31, "287234EB-0861-44F7-A18E-AA1F78DC2742", 31, 1318290493, "392904", 1318290493, "392904", "{\n}", "10033", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 32, "1C020C4C-3BD9-4AD1-A5C9-5BD06C5AEB3A", 32, 1318290493, "392904", 1318290493, "392904", "{\n}", "10034", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 33, "F1702012-C4C2-47E7-820F-A9E91337A0AF", 33, 1318290493, "392904", 1318290493, "392904", "{\n}", "10035", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 34, "0A6CA35B-61E0-4841-8B25-4E25EC2E7F9B", 34, 1318290493, "392904", 1318290493, "392904", "{\n}", "10036", "2", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "1", "0.5", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "2", "1", "0", "0", "0", "0", "2", "100" ]
+, [ 35, "11B590F1-B682-455A-815E-245C8530CA85", 35, 1318290493, "392904", 1318290493, "392904", "{\n}", "10037", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 36, "CB769820-5A29-4BCF-B624-1664C263D63B", 36, 1318290493, "392904", 1318290493, "392904", "{\n}", "10038", "16", "11", "0.69", "5", "0.31", "0", "0", "16", "100", "0", "0", "2", "0.13", "0", "0", "9", "0.56", "0", "0", "5", "0.31", "0", "0", "0", "0", "16", "100", "1", "0.06", "15", "0.94", "0", "0", "0", "0", "16", "100", "3", "0.19", "13", "0.81", "0", "0", "16", "100" ]
+, [ 37, "8C0078EF-C471-4400-BE59-EF62A8963A4C", 37, 1318290493, "392904", 1318290493, "392904", "{\n}", "10039", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 38, "B1F312F2-3BF9-4DE1-8D25-09808529AF87", 38, 1318290493, "392904", 1318290493, "392904", "{\n}", "10040", "5", "4", "0.8", "1", "0.2", "0", "0", "5", "100", "0", "0", "3", "0.6", "0", "0", "1", "0.2", "0", "0", "1", "0.2", "0", "0", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "2", "0.4", "3", "0.6", "0", "0", "5", "100" ]
+, [ 39, "EEF32E14-A1C3-43B0-9B7C-B870384BB13C", 39, 1318290493, "392904", 1318290493, "392904", "{\n}", "10044", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 40, "2D99E4E3-4CE7-45D8-9BDE-11A04E2222CC", 40, 1318290493, "392904", 1318290493, "392904", "{\n}", "10045", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 41, "3891F982-C6FE-4AA6-B854-696EC85BE30B", 41, 1318290493, "392904", 1318290493, "392904", "{\n}", "10065", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 42, "84669D94-FB93-42E5-9F36-55178694ABFD", 42, 1318290493, "392904", 1318290493, "392904", "{\n}", "10115", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 43, "B5B4BD98-C77F-475F-A1A5-DF34064BF41A", 43, 1318290493, "392904", 1318290493, "392904", "{\n}", "10119", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 44, "9ABFBD9D-A81D-4F48-AD8C-8D223293A2A2", 44, 1318290493, "392904", 1318290493, "392904", "{\n}", "10128", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 45, "5EA29A74-C9B4-4BBE-8E73-4F0DC8FEF2B3", 45, 1318290493, "392904", 1318290493, "392904", "{\n}", "10154", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 46, "2D018BD6-6FD3-4099-A589-8BE4D21184EA", 46, 1318290493, "392904", 1318290493, "392904", "{\n}", "10278", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 47, "33855013-C582-48A5-BECD-BBD637639B80", 47, 1318290493, "392904", 1318290493, "392904", "{\n}", "10280", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 48, "6EBEC025-0D76-44C4-93E3-BE4DBC8D9A81", 48, 1318290493, "392904", 1318290493, "392904", "{\n}", "10301", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 49, "54E54E40-BA47-4549-9642-F69EBBECAF07", 49, 1318290493, "392904", 1318290493, "392904", "{\n}", "10302", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 50, "3FA66EAA-8931-4152-AB68-CEC82E2F18EE", 50, 1318290493, "392904", 1318290493, "392904", "{\n}", "10303", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 51, "A3DE5D6E-AD20-4087-89EB-AB3E33BF7095", 51, 1318290493, "392904", 1318290493, "392904", "{\n}", "10304", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 52, "76CA5078-7687-49F1-B8D7-239080E0B2E2", 52, 1318290493, "392904", 1318290493, "392904", "{\n}", "10305", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 53, "733B5E04-F50D-42FF-A368-BD788E1CA450", 53, 1318290493, "392904", 1318290493, "392904", "{\n}", "10306", "1", "0", "0", "1", "1", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "1", "100" ]
+, [ 54, "A625DE30-0B57-4EFA-91F2-60BCC71C59BB", 54, 1318290493, "392904", 1318290493, "392904", "{\n}", "10307", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 55, "7D71EAC8-6419-4DEA-8781-900D85A4215B", 55, 1318290493, "392904", 1318290493, "392904", "{\n}", "10309", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 56, "CE0C4403-2411-4B0E-89DF-ECD498E4476E", 56, 1318290493, "392904", 1318290493, "392904", "{\n}", "10310", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 57, "83E615F0-5976-4834-9E77-9FDCAD34152E", 57, 1318290493, "392904", 1318290493, "392904", "{\n}", "10312", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 58, "DC7DE6B4-D620-4A7F-84CD-576E3669CE84", 58, 1318290493, "392904", 1318290493, "392904", "{\n}", "10314", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 59, "B3A0226A-8355-4810-9FAF-9C2ED56BD12E", 59, 1318290493, "392904", 1318290493, "392904", "{\n}", "10451", "41", "21", "0.51", "20", "0.49", "0", "0", "41", "100", "0", "0", "22", "0.54", "0", "0", "1", "0.02", "0", "0", "15", "0.37", "2", "0.05", "1", "0.02", "41", "100", "3", "0.07", "38", "0.93", "0", "0", "0", "0", "41", "100", "12", "0.29", "29", "0.71", "0", "0", "41", "100" ]
+, [ 60, "E95873C4-ECDB-4174-AF77-82F5A1CDF5E3", 60, 1318290493, "392904", 1318290493, "392904", "{\n}", "10452", "17", "12", "0.71", "5", "0.29", "0", "0", "17", "100", "0", "0", "10", "0.59", "0", "0", "0", "0", "0", "0", "5", "0.29", "1", "0.06", "1", "0.06", "17", "100", "0", "0", "17", "1", "0", "0", "0", "0", "17", "100", "3", "0.18", "14", "0.82", "0", "0", "17", "100" ]
+, [ 61, "0A9E8E1B-E391-470F-B443-B9A340EDB258", 61, 1318290493, "392904", 1318290493, "392904", "{\n}", "10453", "14", "7", "0.5", "7", "0.5", "0", "0", "14", "100", "0", "0", "6", "0.43", "0", "0", "0", "0", "0", "0", "8", "0.57", "0", "0", "0", "0", "14", "100", "2", "0.14", "12", "0.86", "0", "0", "0", "0", "14", "100", "8", "0.57", "6", "0.43", "0", "0", "14", "100" ]
+, [ 62, "060DBDBE-EF35-4BF8-A542-5CD11EC5950F", 62, 1318290493, "392904", 1318290493, "392904", "{\n}", "10454", "18", "8", "0.44", "10", "0.56", "0", "0", "18", "100", "0", "0", "7", "0.39", "0", "0", "1", "0.06", "0", "0", "10", "0.56", "0", "0", "0", "0", "18", "100", "1", "0.06", "17", "0.94", "0", "0", "0", "0", "18", "100", "8", "0.44", "10", "0.56", "0", "0", "18", "100" ]
+, [ 63, "BA572699-957A-4E77-A125-4DB46E3F8B1F", 63, 1318290493, "392904", 1318290493, "392904", "{\n}", "10455", "27", "17", "0.63", "10", "0.37", "0", "0", "27", "100", "0", "0", "5", "0.19", "0", "0", "0", "0", "0", "0", "20", "0.74", "2", "0.07", "0", "0", "27", "100", "1", "0.04", "25", "0.93", "1", "0.04", "0", "0", "27", "100", "7", "0.26", "20", "0.74", "0", "0", "27", "100" ]
+, [ 64, "E8FACD32-BA5F-4326-B10B-5E247D376436", 64, 1318290493, "392904", 1318290493, "392904", "{\n}", "10456", "5", "3", "0.6", "2", "0.4", "0", "0", "5", "100", "0", "0", "3", "0.6", "1", "0.2", "0", "0", "0", "0", "0", "0", "1", "0.2", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "1", "0.2", "4", "0.8", "0", "0", "5", "100" ]
+, [ 65, "4378C4AA-4576-4890-A0E3-45F2427E1EDE", 65, 1318290493, "392904", 1318290493, "392904", "{\n}", "10457", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 66, "B36D9CDA-BDBF-4471-A27B-411DBF4A3BA9", 66, 1318290493, "392904", 1318290493, "392904", "{\n}", "10458", "52", "25", "0.48", "27", "0.52", "0", "0", "52", "100", "0", "0", "24", "0.46", "0", "0", "0", "0", "1", "0.02", "23", "0.44", "3", "0.06", "1", "0.02", "52", "100", "3", "0.06", "48", "0.92", "1", "0.02", "0", "0", "52", "100", "19", "0.37", "33", "0.63", "0", "0", "52", "100" ]
+, [ 67, "968F81D8-1149-4411-9691-40DC74523F49", 67, 1318290493, "392904", 1318290493, "392904", "{\n}", "10459", "7", "5", "0.71", "2", "0.29", "0", "0", "7", "100", "0", "0", "3", "0.43", "0", "0", "0", "0", "0", "0", "4", "0.57", "0", "0", "0", "0", "7", "100", "2", "0.29", "5", "0.71", "0", "0", "0", "0", "7", "100", "3", "0.43", "4", "0.57", "0", "0", "7", "100" ]
+, [ 68, "0C21B3BD-4EB2-4E36-B4E0-0FAC7CB548AD", 68, 1318290493, "392904", 1318290493, "392904", "{\n}", "10460", "27", "20", "0.74", "7", "0.26", "0", "0", "27", "100", "0", "0", "9", "0.33", "0", "0", "0", "0", "1", "0.04", "15", "0.56", "2", "0.07", "0", "0", "27", "100", "2", "0.07", "25", "0.93", "0", "0", "0", "0", "27", "100", "14", "0.52", "13", "0.48", "0", "0", "27", "100" ]
+, [ 69, "4542A32F-8692-4889-8706-3DE0D1DD1496", 69, 1318290493, "392904", 1318290493, "392904", "{\n}", "10461", "49", "26", "0.53", "23", "0.47", "0", "0", "49", "100", "1", "0.02", "21", "0.43", "1", "0.02", "1", "0.02", "1", "0.02", "18", "0.37", "5", "0.1", "1", "0.02", "49", "100", "1", "0.02", "48", "0.98", "0", "0", "0", "0", "49", "100", "21", "0.43", "28", "0.57", "0", "0", "49", "100" ]
+, [ 70, "84666A45-0F0E-4C95-8969-7AE4FA609F99", 70, 1318290493, "392904", 1318290493, "392904", "{\n}", "10462", "3", "2", "0.67", "1", "0.33", "0", "0", "3", "100", "0", "0", "1", "0.33", "0", "0", "0", "0", "0", "0", "2", "0.67", "0", "0", "0", "0", "3", "100", "0", "0", "2", "0.67", "1", "0.33", "0", "0", "3", "100", "3", "1", "0", "0", "0", "0", "3", "100" ]
+, [ 71, "80EFDC70-61C5-49FA-9D25-37A6AC3E80BF", 71, 1318290493, "392904", 1318290493, "392904", "{\n}", "10463", "59", "33", "0.56", "26", "0.44", "0", "0", "59", "100", "0", "0", "36", "0.61", "0", "0", "0", "0", "2", "0.03", "18", "0.31", "3", "0.05", "0", "0", "59", "100", "3", "0.05", "54", "0.92", "2", "0.03", "0", "0", "59", "100", "20", "0.34", "39", "0.66", "0", "0", "59", "100" ]
+, [ 72, "BB0BC7E7-07B7-4F82-AEAD-A5D0B6432997", 72, 1318290493, "392904", 1318290493, "392904", "{\n}", "10464", "15", "7", "0.47", "8", "0.53", "0", "0", "15", "100", "0", "0", "7", "0.47", "0", "0", "1", "0.07", "0", "0", "7", "0.47", "0", "0", "0", "0", "15", "100", "0", "0", "15", "1", "0", "0", "0", "0", "15", "100", "7", "0.47", "8", "0.53", "0", "0", "15", "100" ]
+, [ 73, "A6A95B5A-9C0B-4750-96BE-3C127ADBD1AB", 73, 1318290493, "392904", 1318290493, "392904", "{\n}", "10465", "21", "17", "0.81", "4", "0.19", "0", "0", "21", "100", "0", "0", "14", "0.67", "0", "0", "1", "0.05", "4", "0.19", "2", "0.1", "0", "0", "0", "0", "21", "100", "1", "0.05", "20", "0.95", "0", "0", "0", "0", "21", "100", "5", "0.24", "16", "0.76", "0", "0", "21", "100" ]
+, [ 74, "7A3740B0-AEBC-45FC-96EA-E98902EF6C1E", 74, 1318290493, "392904", 1318290493, "392904", "{\n}", "10466", "65", "39", "0.6", "26", "0.4", "0", "0", "65", "100", "1", "0.02", "14", "0.22", "0", "0", "0", "0", "0", "0", "50", "0.77", "0", "0", "0", "0", "65", "100", "3", "0.05", "62", "0.95", "0", "0", "0", "0", "65", "100", "17", "0.26", "48", "0.74", "0", "0", "65", "100" ]
+, [ 75, "BCC10ABF-BDDB-4ADB-9BC9-1D9141188A6A", 75, 1318290493, "392904", 1318290493, "392904", "{\n}", "10467", "106", "65", "0.61", "41", "0.39", "0", "0", "106", "100", "0", "0", "51", "0.48", "1", "0.01", "4", "0.04", "1", "0.01", "47", "0.44", "2", "0.02", "0", "0", "106", "100", "10", "0.09", "94", "0.89", "2", "0.02", "0", "0", "106", "100", "33", "0.31", "73", "0.69", "0", "0", "106", "100" ]
+, [ 76, "FC7168F7-D4F1-4404-80FD-009C50EE49CA", 76, 1318290493, "392904", 1318290493, "392904", "{\n}", "10468", "81", "46", "0.57", "35", "0.43", "0", "0", "81", "100", "0", "0", "35", "0.43", "0", "0", "3", "0.04", "0", "0", "36", "0.44", "7", "0.09", "0", "0", "81", "100", "2", "0.02", "79", "0.98", "0", "0", "0", "0", "81", "100", "23", "0.28", "58", "0.72", "0", "0", "81", "100" ]
+, [ 77, "BAAD0C79-F8D6-4D18-81BD-980F2C0BC2AE", 77, 1318290493, "392904", 1318290493, "392904", "{\n}", "10469", "10", "7", "0.7", "3", "0.3", "0", "0", "10", "100", "0", "0", "4", "0.4", "0", "0", "0", "0", "1", "0.1", "5", "0.5", "0", "0", "0", "0", "10", "100", "2", "0.2", "8", "0.8", "0", "0", "0", "0", "10", "100", "4", "0.4", "6", "0.6", "0", "0", "10", "100" ]
+, [ 78, "62CF670A-A4A2-4F98-A46F-7FF387227CB0", 78, 1318290493, "392904", 1318290493, "392904", "{\n}", "10471", "43", "24", "0.56", "19", "0.44", "0", "0", "43", "100", "0", "0", "27", "0.63", "0", "0", "1", "0.02", "2", "0.05", "12", "0.28", "1", "0.02", "0", "0", "43", "100", "2", "0.05", "41", "0.95", "0", "0", "0", "0", "43", "100", "17", "0.4", "26", "0.6", "0", "0", "43", "100" ]
+, [ 79, "73DEF3FE-9725-4FA3-B3F6-E2B4926CE208", 79, 1318290493, "392904", 1318290493, "392904", "{\n}", "10472", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 80, "436FCB84-45E4-4139-BFAB-D33ED4C0A356", 80, 1318290493, "392904", 1318290493, "392904", "{\n}", "10473", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 81, "BE986DFF-3408-46FD-88CD-B9106DF28ED0", 81, 1318290493, "392904", 1318290493, "392904", "{\n}", "10474", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 82, "6E8D240E-19AE-4A86-9A2E-6556DD3EB63C", 82, 1318290493, "392904", 1318290493, "392904", "{\n}", "10475", "20", "12", "0.6", "8", "0.4", "0", "0", "20", "100", "0", "0", "7", "0.35", "0", "0", "0", "0", "1", "0.05", "12", "0.6", "0", "0", "0", "0", "20", "100", "2", "0.1", "18", "0.9", "0", "0", "0", "0", "20", "100", "8", "0.4", "12", "0.6", "0", "0", "20", "100" ]
+, [ 83, "1D608998-7749-4433-96E8-9D2DBA726BD1", 83, 1318290493, "392904", 1318290493, "392904", "{\n}", "10514", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 84, "BFE044BB-A60E-489D-B9A9-67C3B0688C61", 84, 1318290493, "392904", 1318290493, "392904", "{\n}", "10543", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 85, "857465A6-FA9E-4958-B404-AE00749E48A2", 85, 1318290493, "392904", 1318290493, "392904", "{\n}", "10553", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 86, "C8CB3E25-AC00-4CD5-8FE3-C9EA159B932A", 86, 1318290493, "392904", 1318290493, "392904", "{\n}", "10573", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 87, "9573F29F-5292-49CA-957A-4383F8980E60", 87, 1318290493, "392904", 1318290493, "392904", "{\n}", "10701", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 88, "33E68424-1195-4947-8F3A-771EF62D7E85", 88, 1318290493, "392904", 1318290493, "392904", "{\n}", "10705", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 89, "B659D87C-9B6D-4189-9506-394D3100F841", 89, 1318290493, "392904", 1318290493, "392904", "{\n}", "10911", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 90, "8C17F3A3-AAC3-495D-85CF-D5FE94DC0739", 90, 1318290493, "392904", 1318290493, "392904", "{\n}", "10965", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 91, "94A34C46-EA21-4FD0-816D-FEEFEE01EC3B", 91, 1318290493, "392904", 1318290493, "392904", "{\n}", "10977", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 92, "39D53DFE-0889-4FC4-8097-EFAAA7CBD190", 92, 1318290493, "392904", 1318290493, "392904", "{\n}", "11001", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 93, "BF932A12-234D-4DC1-BA0A-13B891DF9C48", 93, 1318290493, "392904", 1318290493, "392904", "{\n}", "11021", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 94, "C3FFB6DE-3382-4D00-82E9-56496B4E8DB0", 94, 1318290493, "392904", 1318290493, "392904", "{\n}", "11050", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 95, "F92154CC-F621-4DF8-A3DD-B3DDC9125F89", 95, 1318290493, "392904", 1318290493, "392904", "{\n}", "11101", "1", "0", "0", "1", "1", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "1", "100" ]
+, [ 96, "1BC353C5-9E5B-4B89-985B-F4C309C652D2", 96, 1318290493, "392904", 1318290493, "392904", "{\n}", "11102", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 97, "BEFB6F2E-DE6D-4882-A37C-FE111F12DC10", 97, 1318290493, "392904", 1318290493, "392904", "{\n}", "11103", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 98, "B4A3604F-EEF8-4ADE-88E8-F24A16A90365", 98, 1318290493, "392904", 1318290493, "392904", "{\n}", "11104", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 99, "06D85DC2-9046-480E-85F9-BBB9CA7BD5EA", 99, 1318290493, "392904", 1318290493, "392904", "{\n}", "11105", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 100, "9B78A81C-042C-4E77-A2AE-200AC03E9DF0", 100, 1318290493, "392904", 1318290493, "392904", "{\n}", "11106", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 101, "E467F25C-D2F4-46D5-B141-567A016376B7", 101, 1318290493, "392904", 1318290493, "392904", "{\n}", "11111", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 102, "287E3BE7-88EB-43A7-9CA3-4C37697D93C0", 102, 1318290493, "392904", 1318290493, "392904", "{\n}", "11112", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 103, "1196055C-C96C-4D2F-AF12-6A5C6147BAFB", 103, 1318290493, "392904", 1318290493, "392904", "{\n}", "11201", "11", "6", "0.55", "5", "0.45", "0", "0", "11", "100", "0", "0", "2", "0.18", "0", "0", "1", "0.09", "1", "0.09", "5", "0.45", "2", "0.18", "0", "0", "11", "99", "0", "0", "11", "1", "0", "0", "0", "0", "11", "100", "2", "0.18", "9", "0.82", "0", "0", "11", "100" ]
+, [ 104, "D5605781-05A8-4236-99D0-F7F8E94249C4", 104, 1318290493, "392904", 1318290493, "392904", "{\n}", "11202", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 105, "24ABC58D-4422-4681-9FC1-033B8D5F82CF", 105, 1318290493, "392904", 1318290493, "392904", "{\n}", "11203", "15", "12", "0.8", "3", "0.2", "0", "0", "15", "100", "0", "0", "2", "0.13", "0", "0", "1", "0.07", "2", "0.13", "8", "0.53", "2", "0.13", "0", "0", "15", "99", "1", "0.07", "14", "0.93", "0", "0", "0", "0", "15", "100", "1", "0.07", "14", "0.93", "0", "0", "15", "100" ]
+, [ 106, "B36B7FE2-C704-4BCA-B7BB-FE50B33B8CD8", 106, 1318290493, "392904", 1318290493, "392904", "{\n}", "11204", "37", "17", "0.46", "20", "0.54", "0", "0", "37", "100", "0", "0", "0", "0", "0", "0", "0", "0", "36", "0.97", "0", "0", "1", "0.03", "0", "0", "37", "100", "1", "0.03", "36", "0.97", "0", "0", "0", "0", "37", "100", "19", "0.51", "18", "0.49", "0", "0", "37", "100" ]
+, [ 107, "083C7470-CD19-4CBA-9ECE-084D24B4ABD9", 107, 1318290493, "392904", 1318290493, "392904", "{\n}", "11205", "5", "5", "1", "0", "0", "0", "0", "5", "100", "0", "0", "0", "0", "0", "0", "0", "0", "4", "0.8", "0", "0", "1", "0.2", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "3", "0.6", "2", "0.4", "0", "0", "5", "100" ]
+, [ 108, "C633204C-699E-4FE3-80D0-27D651820EE6", 108, 1318290493, "392904", 1318290493, "392904", "{\n}", "11206", "13", "3", "0.23", "10", "0.77", "0", "0", "13", "100", "0", "0", "0", "0", "0", "0", "0", "0", "13", "1", "0", "0", "0", "0", "0", "0", "13", "100", "0", "0", "13", "1", "0", "0", "0", "0", "13", "100", "9", "0.69", "4", "0.31", "0", "0", "13", "100" ]
+, [ 109, "4F4CC248-5256-4808-9856-5D2101210F28", 109, 1318290493, "392904", 1318290493, "392904", "{\n}", "11207", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 110, "30F2C273-449B-4F7B-9EAA-6AE48A87BF21", 110, 1318290493, "392904", 1318290493, "392904", "{\n}", "11208", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 111, "87735A43-C268-4CF8-A170-BD7A64CA3AC7", 111, 1318290493, "392904", 1318290493, "392904", "{\n}", "11209", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 112, "2A95B74A-D4CE-438A-9E19-BEB0CB565F0B", 112, 1318290493, "392904", 1318290493, "392904", "{\n}", "11210", "36", "12", "0.33", "24", "0.67", "0", "0", "36", "100", "0", "0", "0", "0", "0", "0", "0", "0", "33", "0.92", "0", "0", "3", "0.08", "0", "0", "36", "100", "0", "0", "36", "1", "0", "0", "0", "0", "36", "100", "11", "0.31", "25", "0.69", "0", "0", "36", "100" ]
+, [ 113, "7CDA2EDE-127C-4E9D-8090-63D85FECB40A", 113, 1318290493, "392904", 1318290493, "392904", "{\n}", "11211", "34", "31", "0.91", "3", "0.09", "0", "0", "34", "100", "0", "0", "2", "0.06", "0", "0", "1", "0.03", "28", "0.82", "1", "0.03", "2", "0.06", "0", "0", "34", "100", "0", "0", "34", "1", "0", "0", "0", "0", "34", "100", "22", "0.65", "12", "0.35", "0", "0", "34", "100" ]
+, [ 114, "1A7F105B-AB1E-4905-8516-B0176EFB1ACE", 114, 1318290493, "392904", 1318290493, "392904", "{\n}", "11212", "10", "8", "0.8", "2", "0.2", "0", "0", "10", "100", "0", "0", "1", "0.1", "0", "0", "1", "0.1", "0", "0", "7", "0.7", "1", "0.1", "0", "0", "10", "100", "1", "0.1", "9", "0.9", "0", "0", "0", "0", "10", "100", "0", "0", "10", "1", "0", "0", "10", "100" ]
+, [ 115, "DADF714E-C230-45B2-8535-1DB8B49E806F", 115, 1318290493, "392904", 1318290493, "392904", "{\n}", "11213", "38", "17", "0.45", "21", "0.55", "0", "0", "38", "100", "0", "0", "0", "0", "0", "0", "0", "0", "32", "0.84", "0", "0", "6", "0.16", "0", "0", "38", "100", "1", "0.03", "37", "0.97", "0", "0", "0", "0", "38", "100", "10", "0.26", "28", "0.74", "0", "0", "38", "100" ]
+, [ 116, "19D40C3D-CFF0-4837-B116-917ACAF427B0", 116, 1318290493, "392904", 1318290493, "392904", "{\n}", "11214", "10", "7", "0.7", "3", "0.3", "0", "0", "10", "100", "0", "0", "0", "0", "0", "0", "5", "0.5", "4", "0.4", "1", "0.1", "0", "0", "0", "0", "10", "100", "0", "0", "10", "1", "0", "0", "0", "0", "10", "100", "2", "0.2", "8", "0.8", "0", "0", "10", "100" ]
+, [ 117, "39F81E88-42D0-4F82-B3DF-789967610C78", 117, 1318290493, "392904", 1318290493, "392904", "{\n}", "11215", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 118, "A935904A-B574-4FF6-BE60-6860DB38E1FC", 118, 1318290493, "392904", 1318290493, "392904", "{\n}", "11216", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 119, "5C4343B9-94DC-4AD1-B162-B1CD3BBE77A0", 119, 1318290493, "392904", 1318290493, "392904", "{\n}", "11217", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 120, "0D43697F-C9B9-485B-8FF0-4420F9475C0A", 120, 1318290493, "392904", 1318290493, "392904", "{\n}", "11218", "111", "97", "0.87", "14", "0.13", "0", "0", "111", "100", "0", "0", "1", "0.01", "0", "0", "3", "0.03", "95", "0.86", "6", "0.05", "6", "0.05", "0", "0", "111", "100", "8", "0.07", "102", "0.92", "1", "0.01", "0", "0", "111", "100", "51", "0.46", "60", "0.54", "0", "0", "111", "100" ]
+, [ 121, "8638D600-35D2-46E7-8A30-89305C7D8B8F", 121, 1318290493, "392904", 1318290493, "392904", "{\n}", "11219", "214", "182", "0.85", "32", "0.15", "0", "0", "214", "100", "0", "0", "1", "0", "0", "0", "1", "0", "205", "0.96", "0", "0", "6", "0.03", "1", "0", "214", "99", "2", "0.01", "212", "0.99", "0", "0", "0", "0", "214", "100", "112", "0.52", "102", "0.48", "0", "0", "214", "100" ]
+, [ 122, "3D5D6E41-D003-4FAA-8BBE-266C2469313B", 122, 1318290493, "392904", 1318290493, "392904", "{\n}", "11220", "8", "1", "0.13", "7", "0.88", "0", "0", "8", "100", "0", "0", "0", "0", "0", "0", "1", "0.13", "6", "0.75", "0", "0", "1", "0.13", "0", "0", "8", "100", "0", "0", "8", "1", "0", "0", "0", "0", "8", "100", "5", "0.63", "3", "0.38", "0", "0", "8", "100" ]
+, [ 123, "59679058-52AE-40FD-A78B-D7DEBECC89D5", 123, 1318290493, "392904", 1318290493, "392904", "{\n}", "11221", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 124, "B90690F2-DC8B-4C66-9996-1A1A8E949F8C", 124, 1318290493, "392904", 1318290493, "392904", "{\n}", "11222", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 125, "9634CD11-9DCA-4CAF-A5EE-5E85B80ACC94", 125, 1318290493, "392904", 1318290493, "392904", "{\n}", "11223", "109", "53", "0.49", "56", "0.51", "0", "0", "109", "100", "0", "0", "1", "0.01", "0", "0", "7", "0.06", "95", "0.87", "1", "0.01", "5", "0.05", "0", "0", "109", "100", "6", "0.06", "102", "0.94", "1", "0.01", "0", "0", "109", "100", "20", "0.18", "89", "0.82", "0", "0", "109", "100" ]
+, [ 126, "7F1119DE-ECE0-463E-A297-FDFCF40AAE03", 126, 1318290493, "392904", 1318290493, "392904", "{\n}", "11224", "93", "53", "0.57", "40", "0.43", "0", "0", "93", "100", "0", "0", "14", "0.15", "0", "0", "7", "0.08", "4", "0.04", "60", "0.65", "8", "0.09", "0", "0", "93", "100", "6", "0.06", "86", "0.92", "1", "0.01", "0", "0", "93", "99", "28", "0.3", "65", "0.7", "0", "0", "93", "100" ]
+, [ 127, "4FEE78A6-516C-449B-9BAC-D56B1B1FA8C6", 127, 1318290493, "392904", 1318290493, "392904", "{\n}", "11225", "52", "52", "1", "0", "0", "0", "0", "52", "100", "0", "0", "0", "0", "0", "0", "0", "0", "52", "1", "0", "0", "0", "0", "0", "0", "52", "100", "0", "0", "52", "1", "0", "0", "0", "0", "52", "100", "22", "0.42", "30", "0.58", "0", "0", "52", "100" ]
+, [ 128, "3D2B7CF3-FF22-47B0-BB09-7EC3428FB11E", 128, 1318290493, "392904", 1318290493, "392904", "{\n}", "11226", "10", "7", "0.7", "3", "0.3", "0", "0", "10", "100", "0", "0", "6", "0.6", "0", "0", "0", "0", "0", "0", "4", "0.4", "0", "0", "0", "0", "10", "100", "0", "0", "10", "1", "0", "0", "0", "0", "10", "100", "4", "0.4", "6", "0.6", "0", "0", "10", "100" ]
+, [ 129, "DC22C2EE-605A-44C5-85B6-22789BAC29FD", 129, 1318290493, "392904", 1318290493, "392904", "{\n}", "11228", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 130, "DD1955DB-08DA-42DB-B190-E06F64DE6A94", 130, 1318290493, "392904", 1318290493, "392904", "{\n}", "11229", "52", "32", "0.62", "20", "0.38", "0", "0", "52", "100", "0", "0", "2", "0.04", "0", "0", "5", "0.1", "39", "0.75", "2", "0.04", "3", "0.06", "1", "0.02", "52", "100", "3", "0.06", "49", "0.94", "0", "0", "0", "0", "52", "100", "5", "0.1", "47", "0.9", "0", "0", "52", "100" ]
+, [ 131, "7BCA7FB3-FB2F-466C-9B8E-0AC1C10B5470", 131, 1318290493, "392904", 1318290493, "392904", "{\n}", "11230", "248", "194", "0.78", "54", "0.22", "0", "0", "248", "100", "0", "0", "1", "0", "0", "0", "7", "0.03", "216", "0.87", "2", "0.01", "17", "0.07", "5", "0.02", "248", "100", "3", "0.01", "245", "0.99", "0", "0", "0", "0", "248", "100", "42", "0.17", "206", "0.83", "0", "0", "248", "100" ]
+, [ 132, "4E153216-B1B6-4943-B451-58CE7DC413C4", 132, 1318290493, "392904", 1318290493, "392904", "{\n}", "11231", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 133, "37CC4BFC-34BE-428B-89D3-1421EE2F7F66", 133, 1318290493, "392904", 1318290493, "392904", "{\n}", "11232", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 134, "8C7017BD-AFA9-4785-82A0-BF80D96267A0", 134, 1318290493, "392904", 1318290493, "392904", "{\n}", "11233", "14", "6", "0.43", "8", "0.57", "0", "0", "14", "100", "0", "0", "0", "0", "0", "0", "0", "0", "4", "0.29", "9", "0.64", "1", "0.07", "0", "0", "14", "100", "0", "0", "14", "1", "0", "0", "0", "0", "14", "100", "5", "0.36", "9", "0.64", "0", "0", "14", "100" ]
+, [ 135, "0B10FC04-1360-4239-8EDE-6BAE5ECC9363", 135, 1318290493, "392904", 1318290493, "392904", "{\n}", "11234", "59", "29", "0.49", "30", "0.51", "0", "0", "59", "100", "0", "0", "8", "0.14", "0", "0", "0", "0", "37", "0.63", "10", "0.17", "4", "0.07", "0", "0", "59", "100", "1", "0.02", "58", "0.98", "0", "0", "0", "0", "59", "100", "2", "0.03", "57", "0.97", "0", "0", "59", "100" ]
+, [ 136, "F8A1C1A6-E836-4725-906A-8E750B121A07", 136, 1318290493, "392904", 1318290493, "392904", "{\n}", "11235", "50", "17", "0.34", "33", "0.66", "0", "0", "50", "100", "0", "0", "7", "0.14", "0", "0", "4", "0.08", "36", "0.72", "2", "0.04", "1", "0.02", "0", "0", "50", "100", "1", "0.02", "48", "0.96", "1", "0.02", "0", "0", "50", "100", "4", "0.08", "46", "0.92", "0", "0", "50", "100" ]
+, [ 137, "2D0B05B6-F044-4EA1-839C-488B88A5BBFE", 137, 1318290493, "392904", 1318290493, "392904", "{\n}", "11236", "7", "3", "0.43", "4", "0.57", "0", "0", "7", "100", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0.14", "5", "0.71", "0", "0", "1", "0.14", "7", "99", "2", "0.29", "5", "0.71", "0", "0", "0", "0", "7", "100", "0", "0", "7", "1", "0", "0", "7", "100" ]
+, [ 138, "0F4EFFF3-7824-4326-A15B-4FE33FB0D88D", 138, 1318290493, "392904", 1318290493, "392904", "{\n}", "11237", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 139, "2B924CA6-412E-4B93-8A0D-90DF5AE132F2", 139, 1318290493, "392904", 1318290493, "392904", "{\n}", "11238", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 140, "6BD57CCF-23E7-4ADE-BA1E-605A3C882878", 140, 1318290493, "392904", 1318290493, "392904", "{\n}", "11239", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 141, "06F7235E-7246-457A-9F1B-834F9D71A5D7", 141, 1318290493, "392904", 1318290493, "392904", "{\n}", "11252", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 142, "6BA18364-8D9C-4956-8E93-229E6BE68BB6", 142, 1318290493, "392904", 1318290493, "392904", "{\n}", "11354", "2", "1", "0.5", "1", "0.5", "0", "0", "2", "100", "0", "0", "1", "0.5", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "2", "100", "2", "1", "0", "0", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 143, "99EBCF73-0AAF-4F40-9471-01E3D7E32FE5", 143, 1318290493, "392904", 1318290493, "392904", "{\n}", "11355", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 144, "BE47A165-16DA-4496-B81F-7B216E6D76F4", 144, 1318290493, "392904", 1318290493, "392904", "{\n}", "11356", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 145, "A393FA02-414A-47D6-898B-6158A4105848", 145, 1318290493, "392904", 1318290493, "392904", "{\n}", "11357", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 146, "6E93FD41-C0CF-45A7-BB34-4224AF00A49F", 146, 1318290493, "392904", 1318290493, "392904", "{\n}", "11358", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 147, "23074BBF-4FD9-4E1C-956E-EC09EFFC6750", 147, 1318290493, "392904", 1318290493, "392904", "{\n}", "11360", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 148, "FD167EE8-FC1E-448E-870D-9D79BEE8F64F", 148, 1318290493, "392904", 1318290493, "392904", "{\n}", "11361", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 149, "175DE69F-2FFD-4993-B4AF-D4AD86AAC687", 149, 1318290493, "392904", 1318290493, "392904", "{\n}", "11362", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 150, "6C791CD9-21B8-453C-92D0-660E788B34C6", 150, 1318290493, "392904", 1318290493, "392904", "{\n}", "11364", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 151, "64BB20C2-97A9-47C2-9DFA-3DDEE977A3A6", 151, 1318290493, "392904", 1318290493, "392904", "{\n}", "11365", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 152, "75CF6B7B-B46C-46B6-BE43-859F02D68F5F", 152, 1318290493, "392904", 1318290493, "392904", "{\n}", "11366", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 153, "166DF931-5EC7-43FA-9E15-9FB47346A35E", 153, 1318290493, "392904", 1318290493, "392904", "{\n}", "11367", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 154, "5CD43A7F-BF7E-4DA9-A249-F7AFA3BE6ABD", 154, 1318290493, "392904", 1318290493, "392904", "{\n}", "11368", "5", "4", "0.8", "1", "0.2", "0", "0", "5", "100", "0", "0", "3", "0.6", "0", "0", "1", "0.2", "1", "0.2", "0", "0", "0", "0", "0", "0", "5", "100", "1", "0.2", "4", "0.8", "0", "0", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "5", "100" ]
+, [ 155, "E6707085-5C28-4753-AFEC-DD46502DEEC5", 155, 1318290493, "392904", 1318290493, "392904", "{\n}", "11369", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 156, "682E9AB1-CAFB-4437-A49B-86FAB5DD38DD", 156, 1318290493, "392904", 1318290493, "392904", "{\n}", "11370", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 157, "30545496-B6AB-4AB3-98C3-5BEBB8F02C21", 157, 1318290493, "392904", 1318290493, "392904", "{\n}", "11371", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 158, "95FAE112-1A95-464C-942F-2A1D1083B46E", 158, 1318290493, "392904", 1318290493, "392904", "{\n}", "11372", "2", "1", "0.5", "1", "0.5", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "1", "0.5", "1", "0.5", "0", "0", "2", "100" ]
+, [ 159, "C443542D-B91C-407E-83CD-CC8E68A05EBB", 159, 1318290493, "392904", 1318290493, "392904", "{\n}", "11373", "3", "3", "1", "0", "0", "0", "0", "3", "100", "0", "0", "0", "0", "0", "0", "0", "0", "3", "1", "0", "0", "0", "0", "0", "0", "3", "100", "0", "0", "3", "1", "0", "0", "0", "0", "3", "100", "1", "0.33", "2", "0.67", "0", "0", "3", "100" ]
+, [ 160, "B2CD4C76-A23C-42BA-BA60-F243AABB6A10", 160, 1318290493, "392904", 1318290493, "392904", "{\n}", "11374", "2", "0", "0", "2", "1", "0", "0", "2", "100", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0.5", "1", "0.5", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 161, "EDE808FE-210B-4EE4-9AF6-F73AA842D4A2", 161, 1318290493, "392904", 1318290493, "392904", "{\n}", "11375", "5", "2", "0.4", "3", "0.6", "0", "0", "5", "100", "0", "0", "2", "0.4", "0", "0", "0", "0", "0", "0", "3", "0.6", "0", "0", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "1", "0.2", "4", "0.8", "0", "0", "5", "100" ]
+, [ 162, "CB893A6A-0F25-4969-A9BE-F45E737D8AD1", 162, 1318290493, "392904", 1318290493, "392904", "{\n}", "11377", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 163, "1713F344-9FB9-49FA-99F4-0C9616D63E4C", 163, 1318290493, "392904", 1318290493, "392904", "{\n}", "11378", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 164, "B83022AF-B387-4561-8E94-662B36D054B7", 164, 1318290493, "392904", 1318290493, "392904", "{\n}", "11379", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 165, "4F6D2497-C49F-4D17-8C9E-22F23C72FE44", 165, 1318290493, "392904", 1318290493, "392904", "{\n}", "11385", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 166, "6F10B3D6-507E-4FEA-BA20-D734A5A27F74", 166, 1318290493, "392904", 1318290493, "392904", "{\n}", "11411", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 167, "25F44EEE-79C2-4075-B9F2-14CF515E15F2", 167, 1318290493, "392904", 1318290493, "392904", "{\n}", "11412", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 168, "747F9E15-EE7A-46C0-8011-AC85533D6027", 168, 1318290493, "392904", 1318290493, "392904", "{\n}", "11413", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 169, "9A5227E7-C67D-440F-952A-BAC6251ECACB", 169, 1318290493, "392904", 1318290493, "392904", "{\n}", "11414", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 170, "64DD0697-0F9B-4A4D-BF2E-009354885379", 170, 1318290493, "392904", 1318290493, "392904", "{\n}", "11415", "11", "6", "0.55", "5", "0.45", "0", "0", "11", "100", "0", "0", "0", "0", "0", "0", "0", "0", "11", "1", "0", "0", "0", "0", "0", "0", "11", "100", "1", "0.09", "10", "0.91", "0", "0", "0", "0", "11", "100", "5", "0.45", "6", "0.55", "0", "0", "11", "100" ]
+, [ 171, "C9DB9A36-1C47-48BF-A133-47885079A4F9", 171, 1318290493, "392904", 1318290493, "392904", "{\n}", "11416", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 172, "68C7E55D-1C6E-47F1-A567-459B5CD60915", 172, 1318290493, "392904", 1318290493, "392904", "{\n}", "11417", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 173, "BB46F21D-7037-4660-ABA3-FF4AA1ADE94C", 173, 1318290493, "392904", 1318290493, "392904", "{\n}", "11418", "4", "2", "0.5", "2", "0.5", "0", "0", "4", "100", "0", "0", "1", "0.25", "0", "0", "0", "0", "0", "0", "1", "0.25", "1", "0.25", "1", "0.25", "4", "100", "0", "0", "4", "1", "0", "0", "0", "0", "4", "100", "1", "0.25", "3", "0.75", "0", "0", "4", "100" ]
+, [ 174, "B36A0DD7-5EF3-484E-8450-7A1AB23794DA", 174, 1318290493, "392904", 1318290493, "392904", "{\n}", "11419", "1", "0", "0", "1", "1", "0", "0", "1", "100", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "0", "0", "1", "100", "0", "0", "1", "1", "0", "0", "1", "100" ]
+, [ 175, "CE038CFC-7B9A-4EA9-9E60-1326539C1B2A", 175, 1318290493, "392904", 1318290493, "392904", "{\n}", "11420", "2", "1", "0.5", "1", "0.5", "0", "0", "2", "100", "0", "0", "1", "0.5", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "2", "1", "0", "0", "0", "0", "2", "100" ]
+, [ 176, "B2172BBC-F7D5-49C8-87B5-0A011C87A5AD", 176, 1318290493, "392904", 1318290493, "392904", "{\n}", "11421", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 177, "1FF6FD04-3C3E-45E1-8FFE-6FE40B366A18", 177, 1318290493, "392904", 1318290493, "392904", "{\n}", "11422", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 178, "BDAE12E8-8986-49C1-8426-FE2BE4167039", 178, 1318290493, "392904", 1318290493, "392904", "{\n}", "11423", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 179, "705BB750-9DB0-4092-8600-BB052695CAF5", 179, 1318290493, "392904", 1318290493, "392904", "{\n}", "11424", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 180, "F6403BF6-D0D2-4FF8-B8CB-6FF98D26043B", 180, 1318290493, "392904", 1318290493, "392904", "{\n}", "11425", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 181, "0FDB25EF-EBF0-4BB2-B05F-0651DC041B7F", 181, 1318290493, "392904", 1318290493, "392904", "{\n}", "11426", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 182, "577F2279-7DEB-4E45-B695-4513E63A559D", 182, 1318290493, "392904", 1318290493, "392904", "{\n}", "11427", "2", "0", "0", "2", "1", "0", "0", "2", "100", "0", "0", "1", "0.5", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "0", "0", "2", "100", "1", "0.5", "1", "0.5", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 183, "88C8D9B8-A1FD-40FF-B5DA-46894A916698", 183, 1318290493, "392904", 1318290493, "392904", "{\n}", "11428", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 184, "866096EA-F4DC-4F7B-A401-CB76F5CDDFB3", 184, 1318290493, "392904", 1318290493, "392904", "{\n}", "11429", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 185, "E0F0C54C-2895-4177-8233-54311316A935", 185, 1318290493, "392904", 1318290493, "392904", "{\n}", "11430", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 186, "8289FAFB-EE61-4325-B87E-6E734BF31F55", 186, 1318290493, "392904", 1318290493, "392904", "{\n}", "11431", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 187, "DE784BE6-079D-4A7E-9E69-FD96616094CD", 187, 1318290493, "392904", 1318290493, "392904", "{\n}", "11432", "2", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "0", "0", "0", "0", "1", "0.5", "0", "0", "1", "0.5", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "0", "0", "2", "100", "0", "0", "2", "1", "0", "0", "2", "100" ]
+, [ 188, "13274728-4D45-45E7-BB28-0BF570109F4A", 188, 1318290493, "392904", 1318290493, "392904", "{\n}", "11433", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 189, "B052159B-C1B5-4B2C-8310-F662E1D7A66D", 189, 1318290493, "392904", 1318290493, "392904", "{\n}", "11434", "4", "1", "0.25", "3", "0.75", "0", "0", "4", "100", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "4", "1", "0", "0", "0", "0", "4", "100", "1", "0.25", "3", "0.75", "0", "0", "0", "0", "4", "100", "0", "0", "4", "1", "0", "0", "4", "100" ]
+, [ 190, "E43AD83E-266C-40F7-8ECE-58A58DDD4DA1", 190, 1318290493, "392904", 1318290493, "392904", "{\n}", "11435", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 191, "3C0D19E4-44E8-413F-86AA-A6ABC3EB3E7E", 191, 1318290493, "392904", 1318290493, "392904", "{\n}", "11436", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 192, "8DB1D308-3622-4A9D-9C5E-E7248B7A3264", 192, 1318290493, "392904", 1318290493, "392904", "{\n}", "11439", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 193, "27DAAF36-080A-47CA-A404-C4CC807BFB06", 193, 1318290493, "392904", 1318290493, "392904", "{\n}", "11451", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 194, "410FE000-44CD-462B-BAD9-70112A8ABE14", 194, 1318290493, "392904", 1318290493, "392904", "{\n}", "11471", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 195, "CA67CB40-783A-4178-9DA9-0653B2B215EC", 195, 1318290493, "392904", 1318290493, "392904", "{\n}", "11510", "28", "6", "0.21", "22", "0.79", "0", "0", "28", "100", "0", "0", "6", "0.21", "0", "0", "1", "0.04", "18", "0.64", "2", "0.07", "1", "0.04", "0", "0", "28", "100", "1", "0.04", "27", "0.96", "0", "0", "0", "0", "28", "100", "1", "0.04", "27", "0.96", "0", "0", "28", "100" ]
+, [ 196, "A6F83ED7-2AED-437C-A441-FA61FE394E5E", 196, 1318290493, "392904", 1318290493, "392904", "{\n}", "11548", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 197, "0B18B001-F2BE-4911-96F4-2CF02D50DF8E", 197, 1318290493, "392904", 1318290493, "392904", "{\n}", "11566", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 198, "E4AA156F-99E0-4947-A5E1-571C810481B6", 198, 1318290493, "392904", 1318290493, "392904", "{\n}", "11577", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 199, "D0CDFADE-827E-44C5-8CB6-64B66C390EB6", 199, 1318290493, "392904", 1318290493, "392904", "{\n}", "11580", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 200, "FEB04E75-55A9-43DF-975C-F7F4C597579B", 200, 1318290493, "392904", 1318290493, "392904", "{\n}", "11598", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 201, "CEEA1583-CF15-402D-B4D7-28C4B69F30BC", 201, 1318290493, "392904", 1318290493, "392904", "{\n}", "11629", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 202, "D80C567A-F4CB-40C6-AA91-00DC33F63A47", 202, 1318290493, "392904", 1318290493, "392904", "{\n}", "11691", "37", "12", "0.32", "25", "0.68", "0", "0", "37", "100", "0", "0", "0", "0", "0", "0", "0", "0", "37", "1", "0", "0", "0", "0", "0", "0", "37", "100", "0", "0", "37", "1", "0", "0", "0", "0", "37", "100", "3", "0.08", "34", "0.92", "0", "0", "37", "100" ]
+, [ 203, "6C6B5ED2-5D78-4F0F-B42C-C1C82A5A07D4", 203, 1318290493, "392904", 1318290493, "392904", "{\n}", "11692", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 204, "DFDAFC87-840F-4C76-B4C6-83880709A9B5", 204, 1318290493, "392904", 1318290493, "392904", "{\n}", "11693", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 205, "7AC25721-F0F8-4263-95BF-E82A09EE7D4E", 205, 1318290493, "392904", 1318290493, "392904", "{\n}", "11694", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 206, "08658E64-A0D8-4282-AFD2-3B25C7C2DDCE", 206, 1318290493, "392904", 1318290493, "392904", "{\n}", "11695", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 207, "493DB3D8-8D6C-472C-B8CA-D76D611D93AE", 207, 1318290493, "392904", 1318290493, "392904", "{\n}", "11731", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 208, "797EBA31-F586-4B10-9605-6527B9B65B23", 208, 1318290493, "392904", 1318290493, "392904", "{\n}", "11798", "5", "3", "0.6", "2", "0.4", "0", "0", "5", "100", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "0", "0", "5", "100", "0", "0", "5", "1", "0", "0", "5", "100" ]
+, [ 209, "4A94E203-9FF2-40BE-9032-D3A49D7FBFEA", 209, 1318290493, "392904", 1318290493, "392904", "{\n}", "11968", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 210, "32195DDC-DE26-4F4A-94DB-E77DC57458DC", 210, 1318290493, "392904", 1318290493, "392904", "{\n}", "12423", "21", "1", "0.05", "20", "0.95", "0", "0", "21", "100", "0", "0", "0", "0", "0", "0", "0", "0", "19", "0.9", "0", "0", "1", "0.05", "1", "0.05", "21", "100", "0", "0", "21", "1", "0", "0", "0", "0", "21", "100", "5", "0.24", "16", "0.76", "0", "0", "21", "100" ]
+, [ 211, "458C0CEE-FFA0-4E01-A055-1928452B0F27", 211, 1318290493, "392904", 1318290493, "392904", "{\n}", "12428", "124", "74", "0.6", "50", "0.4", "0", "0", "124", "100", "2", "0.02", "1", "0.01", "0", "0", "0", "0", "117", "0.94", "0", "0", "4", "0.03", "0", "0", "124", "100", "0", "0", "124", "1", "0", "0", "0", "0", "124", "100", "71", "0.57", "53", "0.43", "0", "0", "124", "100" ]
+, [ 212, "8DEC74DD-523E-496A-BA1C-EDA5DC954519", 212, 1318290493, "392904", 1318290493, "392904", "{\n}", "12435", "55", "5", "0.09", "50", "0.91", "0", "0", "55", "100", "0", "0", "0", "0", "0", "0", "0", "0", "50", "0.91", "0", "0", "5", "0.09", "0", "0", "55", "100", "0", "0", "55", "1", "0", "0", "0", "0", "55", "100", "19", "0.35", "36", "0.65", "0", "0", "55", "100" ]
+, [ 213, "06E0505F-F624-41C7-AE07-8A7E6E7A90E2", 213, 1318290493, "392904", 1318290493, "392904", "{\n}", "12458", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 214, "AAC6F15E-BD05-4A08-8FC4-16DDF6F57475", 214, 1318290493, "392904", 1318290493, "392904", "{\n}", "12466", "44", "44", "1", "0", "0", "0", "0", "44", "100", "0", "0", "0", "0", "0", "0", "0", "0", "44", "1", "0", "0", "0", "0", "0", "0", "44", "100", "0", "0", "44", "1", "0", "0", "0", "0", "44", "100", "35", "0.8", "9", "0.2", "0", "0", "44", "100" ]
+, [ 215, "0BE21D5F-3D16-46C1-9842-7BA811A2CDE8", 215, 1318290493, "392904", 1318290493, "392904", "{\n}", "12473", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 216, "6C7EC061-C3D6-40EE-A5AE-7D3C3CFBEBA6", 216, 1318290493, "392904", 1318290493, "392904", "{\n}", "12528", "52", "2", "0.04", "50", "0.96", "0", "0", "52", "100", "0", "0", "0", "0", "0", "0", "0", "0", "46", "0.88", "0", "0", "6", "0.12", "0", "0", "52", "100", "1", "0.02", "51", "0.98", "0", "0", "0", "0", "52", "100", "21", "0.4", "31", "0.6", "0", "0", "52", "100" ]
+, [ 217, "EDEC17D3-A67F-486F-8FB4-2DC991E8EAB6", 217, 1318290493, "392904", 1318290493, "392904", "{\n}", "12701", "87", "49", "0.56", "38", "0.44", "0", "0", "87", "100", "0", "0", "0", "0", "0", "0", "0", "0", "83", "0.95", "0", "0", "2", "0.02", "2", "0.02", "87", "99", "0", "0", "87", "1", "0", "0", "0", "0", "87", "100", "18", "0.21", "69", "0.79", "0", "0", "87", "100" ]
+, [ 218, "21B5C421-4B1C-4126-8C86-D587C317C072", 218, 1318290493, "392904", 1318290493, "392904", "{\n}", "12733", "13", "6", "0.46", "7", "0.54", "0", "0", "13", "100", "0", "0", "0", "0", "0", "0", "0", "0", "13", "1", "0", "0", "0", "0", "0", "0", "13", "100", "0", "0", "13", "1", "0", "0", "0", "0", "13", "100", "2", "0.15", "11", "0.85", "0", "0", "13", "100" ]
+, [ 219, "319BA246-CE69-40ED-9B8E-A39AC3B6B8CE", 219, 1318290493, "392904", 1318290493, "392904", "{\n}", "12734", "252", "170", "0.67", "82", "0.33", "0", "0", "252", "100", "0", "0", "0", "0", "0", "0", "0", "0", "243", "0.96", "0", "0", "4", "0.02", "5", "0.02", "252", "100", "0", "0", "252", "1", "0", "0", "0", "0", "252", "100", "61", "0.24", "191", "0.76", "0", "0", "252", "100" ]
+, [ 220, "6013A7D0-3DA7-40E9-B9FB-95E20ABBEB95", 220, 1318290493, "392904", 1318290493, "392904", "{\n}", "12737", "35", "34", "0.97", "1", "0.03", "0", "0", "35", "100", "0", "0", "0", "0", "0", "0", "0", "0", "35", "1", "0", "0", "0", "0", "0", "0", "35", "100", "2", "0.06", "33", "0.94", "0", "0", "0", "0", "35", "100", "20", "0.57", "15", "0.43", "0", "0", "35", "100" ]
+, [ 221, "675F1E3D-987E-4416-ABA3-1890E8632360", 221, 1318290493, "392904", 1318290493, "392904", "{\n}", "12750", "37", "36", "0.97", "1", "0.03", "0", "0", "37", "100", "0", "0", "0", "0", "0", "0", "0", "0", "37", "1", "0", "0", "0", "0", "0", "0", "37", "100", "0", "0", "37", "1", "0", "0", "0", "0", "37", "100", "21", "0.57", "16", "0.43", "0", "0", "37", "100" ]
+, [ 222, "39E5A460-F057-40A3-B2EC-646ABD11D27F", 222, 1318290493, "392904", 1318290493, "392904", "{\n}", "12751", "7", "2", "0.29", "5", "0.71", "0", "0", "7", "100", "0", "0", "0", "0", "0", "0", "0", "0", "7", "1", "0", "0", "0", "0", "0", "0", "7", "100", "0", "0", "7", "1", "0", "0", "0", "0", "7", "100", "2", "0.29", "5", "0.71", "0", "0", "7", "100" ]
+, [ 223, "CFCF7B3E-57A8-4B92-81F6-1D6636B2ED2B", 223, 1318290493, "392904", 1318290493, "392904", "{\n}", "12754", "134", "64", "0.48", "70", "0.52", "0", "0", "134", "100", "2", "0.01", "0", "0", "0", "0", "0", "0", "127", "0.95", "0", "0", "4", "0.03", "1", "0.01", "134", "100", "1", "0.01", "133", "0.99", "0", "0", "0", "0", "134", "100", "27", "0.2", "107", "0.8", "0", "0", "134", "100" ]
+, [ 224, "CF3AF04A-063E-4E76-AB6F-A750B93061C2", 224, 1318290493, "392904", 1318290493, "392904", "{\n}", "12758", "82", "50", "0.61", "32", "0.39", "0", "0", "82", "100", "0", "0", "0", "0", "0", "0", "0", "0", "76", "0.93", "0", "0", "6", "0.07", "0", "0", "82", "100", "0", "0", "82", "1", "0", "0", "0", "0", "82", "100", "24", "0.29", "58", "0.71", "0", "0", "82", "100" ]
+, [ 225, "208E5E47-19C6-499E-9AE0-BEBA8D3E5DF3", 225, 1318290493, "392904", 1318290493, "392904", "{\n}", "12759", "11", "0", "0", "11", "1", "0", "0", "11", "100", "0", "0", "0", "0", "0", "0", "0", "0", "11", "1", "0", "0", "0", "0", "0", "0", "11", "100", "0", "0", "11", "1", "0", "0", "0", "0", "11", "100", "8", "0.73", "3", "0.27", "0", "0", "11", "100" ]
+, [ 226, "4ABD5793-C39A-468B-9EED-6C86301B2702", 226, 1318290493, "392904", 1318290493, "392904", "{\n}", "12763", "11", "11", "1", "0", "0", "0", "0", "11", "100", "0", "0", "0", "0", "0", "0", "0", "0", "11", "1", "0", "0", "0", "0", "0", "0", "11", "100", "0", "0", "11", "1", "0", "0", "0", "0", "11", "100", "8", "0.73", "3", "0.27", "0", "0", "11", "100" ]
+, [ 227, "E959DD15-C30A-4893-B58D-F69A33697F24", 227, 1318290493, "392904", 1318290493, "392904", "{\n}", "12764", "64", "61", "0.95", "3", "0.05", "0", "0", "64", "100", "0", "0", "0", "0", "0", "0", "0", "0", "62", "0.97", "0", "0", "2", "0.03", "0", "0", "64", "100", "0", "0", "64", "1", "0", "0", "0", "0", "64", "100", "5", "0.08", "59", "0.92", "0", "0", "64", "100" ]
+, [ 228, "C78EF936-ABEA-4AC9-9248-B822D8CFFD54", 228, 1318290493, "392904", 1318290493, "392904", "{\n}", "12768", "63", "1", "0.02", "62", "0.98", "0", "0", "63", "100", "0", "0", "0", "0", "0", "0", "0", "0", "61", "0.97", "0", "0", "1", "0.02", "1", "0.02", "63", "100", "0", "0", "63", "1", "0", "0", "0", "0", "63", "100", "23", "0.37", "40", "0.63", "0", "0", "63", "100" ]
+, [ 229, "4DCC2062-DA8F-4240-8EBC-3C7C6782E57D", 229, 1318290493, "392904", 1318290493, "392904", "{\n}", "12779", "242", "183", "0.76", "59", "0.24", "0", "0", "242", "100", "0", "0", "0", "0", "0", "0", "0", "0", "239", "0.99", "0", "0", "3", "0.01", "0", "0", "242", "100", "1", "0", "241", "1", "0", "0", "0", "0", "242", "100", "155", "0.64", "87", "0.36", "0", "0", "242", "100" ]
+, [ 230, "4A9AB31F-1A07-4284-8E4B-21F79A31834C", 230, 1318290493, "392904", 1318290493, "392904", "{\n}", "12783", "201", "66", "0.33", "135", "0.67", "0", "0", "201", "100", "0", "0", "0", "0", "2", "0.01", "0", "0", "195", "0.97", "0", "0", "3", "0.01", "1", "0", "201", "99", "4", "0.02", "197", "0.98", "0", "0", "0", "0", "201", "100", "77", "0.38", "124", "0.62", "0", "0", "201", "100" ]
+, [ 231, "44981401-BE7A-4097-9C4F-23571813C495", 231, 1318290493, "392904", 1318290493, "392904", "{\n}", "12786", "4", "3", "0.75", "1", "0.25", "0", "0", "4", "100", "0", "0", "0", "0", "0", "0", "0", "0", "4", "1", "0", "0", "0", "0", "0", "0", "4", "100", "0", "0", "4", "1", "0", "0", "0", "0", "4", "100", "1", "0.25", "3", "0.75", "0", "0", "4", "100" ]
+, [ 232, "8772241D-E6EF-41E2-870B-C355C12BDC39", 232, 1318290493, "392904", 1318290493, "392904", "{\n}", "12788", "83", "39", "0.47", "44", "0.53", "0", "0", "83", "100", "0", "0", "0", "0", "0", "0", "0", "0", "81", "0.98", "0", "0", "2", "0.02", "0", "0", "83", "100", "0", "0", "83", "1", "0", "0", "0", "0", "83", "100", "35", "0.42", "48", "0.58", "0", "0", "83", "100" ]
+, [ 233, "9C1EEF55-C8E7-4E22-8879-2E818E636E90", 233, 1318290493, "392904", 1318290493, "392904", "{\n}", "12789", "272", "115", "0.42", "157", "0.58", "0", "0", "272", "100", "0", "0", "0", "0", "0", "0", "0", "0", "262", "0.96", "0", "0", "6", "0.02", "4", "0.01", "272", "99", "1", "0", "271", "1", "0", "0", "0", "0", "272", "100", "70", "0.26", "202", "0.74", "0", "0", "272", "100" ]
+, [ 234, "2ADACEB2-6B2E-4A5B-B595-C1F375479C48", 234, 1318290493, "392904", 1318290493, "392904", "{\n}", "13731", "17", "2", "0.12", "15", "0.88", "0", "0", "17", "100", "0", "0", "0", "0", "0", "0", "0", "0", "15", "0.88", "0", "0", "2", "0.12", "0", "0", "17", "100", "0", "0", "17", "1", "0", "0", "0", "0", "17", "100", "7", "0.41", "10", "0.59", "0", "0", "17", "100" ]
+, [ 235, "063D28FE-3EDC-4BE8-88E0-A58C1551C3BC", 235, 1318290493, "392904", 1318290493, "392904", "{\n}", "16091", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ 236, "31C89AD2-39AA-4D24-AE9F-D516D9606859", 236, 1318290493, "392904", 1318290493, "392904", "{\n}", "20459", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+ ]
+}

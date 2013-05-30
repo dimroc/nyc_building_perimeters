@@ -1,0 +1,8 @@
+%div hello world
+
+%label{:for => "autocomplete"} Select a programming language:
+%input#autocomplete/
+:javascript
+  $( "#autocomplete" ).typeahead({
+    source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ]
+  });
