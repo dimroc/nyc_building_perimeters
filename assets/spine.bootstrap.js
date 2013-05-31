@@ -66834,7 +66834,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     Splash.prototype._loadCallback = function() {
-      if (location.pathname === "/") {
+      if (location.pathname.match(/nyc_building_perimeter/)) {
         return this.navigate('/neighborhoods');
       }
     };
