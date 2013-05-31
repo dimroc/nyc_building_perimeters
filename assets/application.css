@@ -4797,8 +4797,8 @@ a.badge:focus {
  */
 @font-face {
   font-family: "FontAwesome";
-  src: url("/assets/fontawesome-webfont.eot");
-  src: url("/assets/fontawesome-webfont.eot#iefix") format("embedded-opentype"), url("/assets/fontawesome-webfont.woff") format("woff"), url("/assets/fontawesome-webfont.ttf") format("truetype");
+  src: url("/nyc_building_perimeters/assets/fontawesome-webfont.eot");
+  src: url("/nyc_building_perimeters/assets/fontawesome-webfont.eot#iefix") format("embedded-opentype"), url("/nyc_building_perimeters/assets/fontawesome-webfont.woff") format("woff"), url("/nyc_building_perimeters/assets/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

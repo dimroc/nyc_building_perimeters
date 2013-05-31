@@ -66834,13 +66834,13 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     Splash.prototype._loadCallback = function() {
+
       if (location.pathname.match(/nyc_building_perimeter/)) {
         return this.navigate('/neighborhoods');
       }
     };
 
     return Splash;
-
   })(Spine.Controller);
 
 }).call(this);
