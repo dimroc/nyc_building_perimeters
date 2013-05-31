@@ -61905,9 +61905,9 @@ THREE.VignetteShader = {
 _.mixin(_.string.exports()) // Pull _.str methods into _
 ;
 window.Constants = {
-  loadingImagePath: "assets/loading.gif",
-  apiBasePath: '/api',
-  staticBasePath: 'static',
+  loadingImagePath: "/nyc_building_perimeters/assets/loading.gif",
+  apiBasePath: '/nyc_building_perimeters/api',
+  staticBasePath: '/nyc_building_perimeters/static',
   pandaAccessDetails: {"cloud_id":"GARBAGE","access_key":"GARBAGE","timestamp":"2013-05-30T12:38:43.590574Z","signature":"5OCtfSww9UlyIJqjXox17BcZZwke6srEr2Nms6nlyWY="},
   region_names: ["queens", "brooklyn", "bronx", "manhattan", "staten-island"],
   pusher: {
@@ -62045,22 +62045,22 @@ PandaUploader.UploadOnSubmitAjax.prototype.constructor = PandaUploader.UploadOnS
 
 }).call(this);
 icon_paths = [
-  "assets/loading.gif",
+  "/nyc_building_perimeters/assets/loading.gif",
 
 
-  "assets/icons/nyc.png",
+  "/nyc_building_perimeters/assets/icons/nyc.png",
 
 
 
-  "assets/icons/staten-island.png",
+  "/nyc_building_perimeters/assets/icons/staten-island.png",
 
-  "assets/icons/manhattan.png",
+  "/nyc_building_perimeters/assets/icons/manhattan.png",
 
-  "assets/icons/bronx.png",
+  "/nyc_building_perimeters/assets/icons/bronx.png",
 
-  "assets/icons/brooklyn.png",
+  "/nyc_building_perimeters/assets/icons/brooklyn.png",
 
-  "assets/icons/queens.png",
+  "/nyc_building_perimeters/assets/icons/queens.png",
 
 ]
 
@@ -64418,25 +64418,20 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     PreloadingService.extend(Spine.Events);
 
     PreloadingService.preload = function() {
-      var completeDfd, neighborhoodDfd, nmeshDfd, worldDfd;
+      var completeDfd, neighborhoodDfd, worldDfd;
 
       worldDfd = $.Deferred();
-      nmeshDfd = $.Deferred();
       neighborhoodDfd = $.Deferred();
       App.World.bind('refresh', function() {
         return worldDfd.resolve();
-      });
-      App.NeighborhoodMesh.bind('refresh', function() {
-        return nmeshDfd.resolve();
       });
       App.Neighborhood.bind('refresh', function() {
         return neighborhoodDfd.resolve();
       });
       App.World.fetchFromStatic();
-      App.NeighborhoodMesh.fetchBatch();
       App.Neighborhood.fetchFromStatic();
       completeDfd = $.Deferred();
-      $.when(worldDfd, nmeshDfd, neighborhoodDfd).then(function() {
+      $.when(worldDfd, neighborhoodDfd).then(function() {
         return App.World.first().fetchRegions(function() {
           return completeDfd.resolve();
         });
@@ -65860,7 +65855,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     Region.prototype.iconPath = function() {
-      return "assets/icons/" + this.slug + ".png";
+      return "/nyc_building_perimeters/assets/icons/" + this.slug + ".png";
     };
 
     Region.prototype.neighborhoodNames = function() {
@@ -66015,7 +66010,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     World.prototype.iconPath = function() {
-      return "assets/icons/" + (_(this.name).underscored()) + ".png";
+      return "/nyc_building_perimeters/assets/icons/" + (_(this.name).underscored()) + ".png";
     };
 
     World.prototype.fetchRegions = function(successCallback) {
@@ -66982,7 +66977,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div id="addBlockModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">\n  <img src="assets/loading.gif"/>\n</div>\n\n');
+        __out.push('<div id="addBlockModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">\n  <img src="/nyc_building_perimeters/assets/loading.gif"/>\n</div>\n\n');
 
       }).call(this);
 
@@ -67268,7 +67263,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div class="userPanel"></div>\n<div id="world"></div>\n<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
+        __out.push('<div class="userPanel"></div>\n<div id="world"></div>\n<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="/nyc_building_perimeters/assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
 
       }).call(this);
 
@@ -67658,7 +67653,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
           __out.push('\n          <td class="');
           __out.push(__sanitize(regionName));
           __out.push(' icon centered">\n            <img src="');
-          __out.push(__sanitize("assets/icons/" + regionName + ".png"));
+          __out.push(__sanitize("/nyc_building_perimeters/assets/icons/" + regionName + ".png"));
           __out.push('" alt="');
           __out.push(__sanitize(regionName));
           __out.push('">\n          </td>\n        ');
@@ -67714,7 +67709,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
+        __out.push('<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="/nyc_building_perimeters/assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
 
       }).call(this);
 
