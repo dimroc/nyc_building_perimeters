@@ -3,7 +3,6 @@ World = App.World
 Region = App.Region
 Block = App.Block
 Neighborhood = App.Neighborhood
-NeighborhoodMesh = App.NeighborhoodMesh
 
 $.fn.regionViaSlug = ->
   elementID   = $(@).data('slug')

@@ -20,17 +20,12 @@ $(function() {
 
     var layerOptions = ["normal", "wireframe", "off"]
     var boroughController = gui.add(Env, "boroughs", layerOptions);
-    var neighborhoodController = gui.add(Env, "neighborhoods", layerOptions);
     gui.add(Env, "buildings");
     gui.add(Env, "blocks");
 
     boroughController.onChange(function(value) {
       if(value != "off")
         getHook().reloadRegions();
-    });
-
-    neighborhoodController.onChange(function(value) {
-      if(value != "off") App.NeighborhoodMesh.resetMaterial();
     });
 
     var customContainer = $('#datgui');
