@@ -15907,7 +15907,7 @@ THREE.Matrix3.prototype = {
 
 			if ( throwOnInvertible || false ) {
 
-				throw new Error( msg ); 
+				throw new Error( msg );
 
 			} else {
 
@@ -16630,7 +16630,7 @@ THREE.Matrix4.prototype = {
 
 			if ( throwOnInvertible || false ) {
 
-				throw new Error( msg ); 
+				throw new Error( msg );
 
 			} else {
 
@@ -21342,7 +21342,7 @@ THREE.PerspectiveCamera.prototype.updateProjectionMatrix = function () {
  * @author mrdoob / http://mrdoob.com/
  * @author alteredq / http://alteredqualia.com/
  */
- 
+
 THREE.Light = function ( hex ) {
 
 	THREE.Object3D.call( this );
@@ -29183,7 +29183,7 @@ THREE.ShaderChunk = {
 						"vec3 shadowZ = vec3( shadowCoord.z );",
 						"shadowKernel[0] = vec3(lessThan(depthKernel[0], shadowZ ));",
 						"shadowKernel[0] *= vec3(0.25);",
-													
+
 						"shadowKernel[1] = vec3(lessThan(depthKernel[1], shadowZ ));",
 						"shadowKernel[1] *= vec3(0.25);",
 
@@ -39700,7 +39700,7 @@ THREE.FontUtils = {
 
 THREE.FontUtils.generateShapes = function( text, parameters ) {
 
-	// Parameters 
+	// Parameters
 
 	parameters = parameters || {};
 
@@ -40692,7 +40692,7 @@ THREE.CurvePath = function () {
 
 	this.curves = [];
 	this.bends = [];
-	
+
 	this.autoClose = false; // Automatically closes the path
 };
 
@@ -40716,11 +40716,11 @@ THREE.CurvePath.prototype.closePath = function() {
 	// Add a line curve if start and end of lines are not connected
 	var startPoint = this.curves[0].getPoint(0);
 	var endPoint = this.curves[this.curves.length-1].getPoint(1);
-	
+
 	if (!startPoint.equals(endPoint)) {
 		this.curves.push( new THREE.LineCurve(endPoint, startPoint) );
 	}
-	
+
 };
 
 // To get accurate point with reference to
@@ -41206,14 +41206,14 @@ THREE.Path.prototype.arc = function ( aX, aY, aRadius,
 
 	this.absarc(aX + x0, aY + y0, aRadius,
 		aStartAngle, aEndAngle, aClockwise );
-	
+
  };
 
  THREE.Path.prototype.absarc = function ( aX, aY, aRadius,
 									  aStartAngle, aEndAngle, aClockwise ) {
 	this.absellipse(aX, aY, aRadius, aRadius, aStartAngle, aEndAngle, aClockwise);
  };
- 
+
 THREE.Path.prototype.ellipse = function ( aX, aY, xRadius, yRadius,
 									  aStartAngle, aEndAngle, aClockwise ) {
 
@@ -41225,7 +41225,7 @@ THREE.Path.prototype.ellipse = function ( aX, aY, xRadius, yRadius,
 		aStartAngle, aEndAngle, aClockwise );
 
  };
- 
+
 
 THREE.Path.prototype.absellipse = function ( aX, aY, xRadius, yRadius,
 									  aStartAngle, aEndAngle, aClockwise ) {
@@ -41440,7 +41440,7 @@ THREE.Path.prototype.getPoints = function( divisions, closedPath ) {
 			//console.log(points);
 
 		  break;
-		  
+
 		case THREE.PathActions.ELLIPSE:
 
 			var aX = args[ 0 ], aY = args[ 1 ],
@@ -42938,7 +42938,7 @@ THREE.KeyFrameAnimation.prototype.stop = function() {
 	// reset JIT matrix and remove cache
 
 	for ( var h = 0; h < this.data.hierarchy.length; h++ ) {
-        
+
         var obj = this.hierarchy[ h ];
 		var node = this.data.hierarchy[ h ];
 
@@ -44726,7 +44726,7 @@ THREE.ShapeGeometry.prototype.addShape = function ( shape, options ) {
  * @author bhouston / http://exocortex.com
  */
 
-// points - to create a closed torus, one must use a set of points 
+// points - to create a closed torus, one must use a set of points
 //    like so: [ a, b, c, d, a ], see first is the same as last.
 // segments - the number of circumference segments to create
 // phiStart - the starting radian
@@ -44787,7 +44787,7 @@ THREE.LatheGeometry = function ( points, segments, phiStart, phiLength ) {
 
 			this.faceVertexUvs[ 0 ].push( [
 
-				new THREE.Vector2( u0, v0 ), 
+				new THREE.Vector2( u0, v0 ),
 				new THREE.Vector2( u1, v0 ),
 				new THREE.Vector2( u1, v1 ),
 				new THREE.Vector2( u0, v1 )
@@ -45945,11 +45945,11 @@ THREE.ParametricGeometry = function ( func, slices, stacks, useTris ) {
 THREE.ParametricGeometry.prototype = Object.create( THREE.Geometry.prototype );
 /**
  * @author qiao / https://github.com/qiao
- * @fileoverview This is a convex hull generator using the incremental method. 
+ * @fileoverview This is a convex hull generator using the incremental method.
  * The complexity is O(n^2) where n is the number of vertices.
  * O(nlogn) algorithms do exist, but they are much more complicated.
  *
- * Benchmark: 
+ * Benchmark:
  *
  *  Platform: CPU: P7350 @2.00GHz Engine: V8
  *
@@ -45966,7 +45966,7 @@ THREE.ConvexGeometry = function( vertices ) {
 
 	THREE.Geometry.call( this );
 
-	var faces = [ [ 0, 1, 2 ], [ 0, 2, 1 ] ]; 
+	var faces = [ [ 0, 1, 2 ], [ 0, 2, 1 ] ];
 
 	for ( var i = 3; i < vertices.length; i++ ) {
 
@@ -46035,7 +46035,7 @@ THREE.ConvexGeometry = function( vertices ) {
 		// construct the new faces formed by the edges of the hole and the vertex
 		for ( var h = 0; h < hole.length; h++ ) {
 
-			faces.push( [ 
+			faces.push( [
 				hole[ h ][ 0 ],
 				hole[ h ][ 1 ],
 				vertexId
@@ -46058,7 +46058,7 @@ THREE.ConvexGeometry = function( vertices ) {
 		// distance from face to origin
 		var dist = n.dot( va );
 
-		return n.dot( vertex ) >= dist; 
+		return n.dot( vertex ) >= dist;
 
 	}
 
@@ -46087,7 +46087,7 @@ THREE.ConvexGeometry = function( vertices ) {
 	 */
 	function equalEdge( ea, eb ) {
 
-		return ea[ 0 ] === eb[ 1 ] && ea[ 1 ] === eb[ 0 ]; 
+		return ea[ 0 ] === eb[ 1 ] && ea[ 1 ] === eb[ 0 ];
 
 	}
 
@@ -46137,7 +46137,7 @@ THREE.ConvexGeometry = function( vertices ) {
 	// Convert faces into instances of THREE.Face3
 	for ( var i = 0; i < faces.length; i++ ) {
 
-		this.faces.push( new THREE.Face3( 
+		this.faces.push( new THREE.Face3(
 				faces[ i ][ 0 ],
 				faces[ i ][ 1 ],
 				faces[ i ][ 2 ]
@@ -49695,7 +49695,7 @@ dat.utils.css = (function () {
 
 
 dat.utils.common = (function () {
-  
+
   var ARR_EACH = Array.prototype.forEach;
   var ARR_SLICE = Array.prototype.slice;
 
@@ -49705,38 +49705,38 @@ dat.utils.common = (function () {
    * http://documentcloud.github.com/underscore/
    */
 
-  return { 
-    
+  return {
+
     BREAK: {},
-  
+
     extend: function(target) {
-      
+
       this.each(ARR_SLICE.call(arguments, 1), function(obj) {
-        
+
         for (var key in obj)
-          if (!this.isUndefined(obj[key])) 
+          if (!this.isUndefined(obj[key]))
             target[key] = obj[key];
-        
+
       }, this);
-      
+
       return target;
-      
+
     },
-    
+
     defaults: function(target) {
-      
+
       this.each(ARR_SLICE.call(arguments, 1), function(obj) {
-        
+
         for (var key in obj)
-          if (this.isUndefined(target[key])) 
+          if (this.isUndefined(target[key]))
             target[key] = obj[key];
-        
+
       }, this);
-      
+
       return target;
-    
+
     },
-    
+
     compose: function() {
       var toCall = ARR_SLICE.call(arguments);
             return function() {
@@ -49747,34 +49747,34 @@ dat.utils.common = (function () {
               return args[0];
             }
     },
-    
+
     each: function(obj, itr, scope) {
 
-      
-      if (ARR_EACH && obj.forEach === ARR_EACH) { 
-        
+
+      if (ARR_EACH && obj.forEach === ARR_EACH) {
+
         obj.forEach(itr, scope);
-        
+
       } else if (obj.length === obj.length + 0) { // Is number but not NaN
-        
+
         for (var key = 0, l = obj.length; key < l; key++)
-          if (key in obj && itr.call(scope, obj[key], key) === this.BREAK) 
+          if (key in obj && itr.call(scope, obj[key], key) === this.BREAK)
             return;
-            
+
       } else {
 
-        for (var key in obj) 
+        for (var key in obj)
           if (itr.call(scope, obj[key], key) === this.BREAK)
             return;
-            
+
       }
-            
+
     },
-    
+
     defer: function(fnc) {
       setTimeout(fnc, 0);
     },
-    
+
     toArray: function(obj) {
       if (obj.toArray) return obj.toArray();
       return ARR_SLICE.call(obj);
@@ -49783,41 +49783,41 @@ dat.utils.common = (function () {
     isUndefined: function(obj) {
       return obj === undefined;
     },
-    
+
     isNull: function(obj) {
       return obj === null;
     },
-    
+
     isNaN: function(obj) {
       return obj !== obj;
     },
-    
+
     isArray: Array.isArray || function(obj) {
       return obj.constructor === Array;
     },
-    
+
     isObject: function(obj) {
       return obj === Object(obj);
     },
-    
+
     isNumber: function(obj) {
       return obj === obj+0;
     },
-    
+
     isString: function(obj) {
       return obj === obj+'';
     },
-    
+
     isBoolean: function(obj) {
       return obj === false || obj === true;
     },
-    
+
     isFunction: function(obj) {
       return Object.prototype.toString.call(obj) === '[object Function]';
     }
-  
+
   };
-    
+
 })();
 
 
@@ -49992,7 +49992,7 @@ dat.dom.dom = (function (common) {
   var dom = {
 
     /**
-     * 
+     *
      * @param elem
      * @param selectable
      */
@@ -50212,7 +50212,7 @@ dat.dom.dom = (function (common) {
 
     // http://stackoverflow.com/posts/2684561/revisions
     /**
-     * 
+     *
      * @param elem
      */
     isActive: function(elem) {
@@ -50576,7 +50576,7 @@ dat.controllers.NumberControllerSlider = (function (NumberController, dom, css, 
    *
    * @extends dat.controllers.Controller
    * @extends dat.controllers.NumberController
-   * 
+   *
    * @param {Object} object The object to be manipulated
    * @param {string} property The name of the property to be manipulated
    * @param {Number} minValue Minimum allowed value
@@ -50593,11 +50593,11 @@ dat.controllers.NumberControllerSlider = (function (NumberController, dom, css, 
 
     this.__background = document.createElement('div');
     this.__foreground = document.createElement('div');
-    
+
 
 
     dom.bind(this.__background, 'mousedown', onMouseDown);
-    
+
     dom.addClass(this.__background, 'slider');
     dom.addClass(this.__foreground, 'slider-fg');
 
@@ -50615,7 +50615,7 @@ dat.controllers.NumberControllerSlider = (function (NumberController, dom, css, 
 
       var offset = dom.getOffset(_this.__background);
       var width = dom.getWidth(_this.__background);
-      
+
       _this.setValue(
       	map(e.clientX, offset.left, offset.left + width, _this.__min, _this.__max)
       );
@@ -50672,7 +50672,7 @@ dat.controllers.NumberControllerSlider = (function (NumberController, dom, css, 
 	}
 
   return NumberControllerSlider;
-  
+
 })(dat.controllers.NumberController,
 dat.dom.dom,
 dat.utils.css,
@@ -50720,7 +50720,7 @@ dat.controllers.FunctionController = (function (Controller, dom, common) {
       FunctionController.prototype,
       Controller.prototype,
       {
-        
+
         fire: function() {
           if (this.__onChange) {
             this.__onChange.call(this);
@@ -50795,10 +50795,10 @@ dat.controllers.BooleanController = (function (Controller, dom, common) {
         },
 
         updateDisplay: function() {
-          
+
           if (this.getValue() === true) {
             this.__checkbox.setAttribute('checked', 'checked');
-            this.__checkbox.checked = true;    
+            this.__checkbox.checked = true;
           } else {
               this.__checkbox.checked = false;
           }
@@ -52561,7 +52561,7 @@ dat.controllers.StringController = (function (Controller, dom, common) {
         this.blur();
       }
     });
-    
+
 
     function onChange() {
       _this.setValue(_this.__input.value);
@@ -52687,7 +52687,7 @@ dat.controllers.ColorController = (function (Controller, dom, Color, interpret, 
       borderRadius: '12px',
       zIndex: 1
     });
-    
+
     common.extend(this.__hue_knob.style, {
       position: 'absolute',
       width: '15px',
@@ -52710,7 +52710,7 @@ dat.controllers.ColorController = (function (Controller, dom, Color, interpret, 
       height: '100%',
       background: 'none'
     });
-    
+
     linearGradient(value_field, 'top', 'rgba(0,0,0,0)', '#000');
 
     common.extend(this.__hue_field.style, {
@@ -52897,16 +52897,16 @@ dat.controllers.ColorController = (function (Controller, dom, Color, interpret, 
       }
 
   );
-  
+
   var vendors = ['-moz-','-o-','-webkit-','-ms-',''];
-  
+
   function linearGradient(elem, x, a, b) {
     elem.style.background = '';
     common.each(vendors, function(vendor) {
       elem.style.cssText += 'background: ' + vendor + 'linear-gradient('+x+', '+a+' 0%, ' + b + ' 100%); ';
     });
   }
-  
+
   function hueGradient(elem) {
     elem.style.background = '';
     elem.style.cssText += 'background: -moz-linear-gradient(top,  #ff0000 0%, #ff00ff 17%, #0000ff 34%, #00ffff 50%, #00ff00 67%, #ffff00 84%, #ff0000 100%);'
@@ -53241,7 +53241,7 @@ dat.dom.CenteredDiv = (function (dom, common) {
   CenteredDiv.prototype.show = function() {
 
     var _this = this;
-    
+
 
 
     this.backgroundElement.style.display = 'block';
@@ -53291,7 +53291,7 @@ dat.dom.CenteredDiv = (function (dom, common) {
     this.domElement.style.left = window.innerWidth/2 - dom.getWidth(this.domElement) / 2 + 'px';
     this.domElement.style.top = window.innerHeight/2 - dom.getHeight(this.domElement) / 2 + 'px';
   };
-  
+
   function lockScroll(e) {
     console.log(e);
   }
@@ -59353,7 +59353,7 @@ THREE.KaleidoShader = {
 		"uniform sampler2D tDiffuse;",
 		"uniform float sides;",
 		"uniform float angle;",
-		
+
 		"varying vec2 vUv;",
 
 		"void main() {",
@@ -59460,7 +59460,7 @@ THREE.MirrorShader = {
 
 		"uniform sampler2D tDiffuse;",
 		"uniform int side;",
-		
+
 		"varying vec2 vUv;",
 
 		"void main() {",
@@ -61905,9 +61905,9 @@ THREE.VignetteShader = {
 _.mixin(_.string.exports()) // Pull _.str methods into _
 ;
 window.Constants = {
-  loadingImagePath: "/assets/loading.gif",
+  loadingImagePath: "assets/loading.gif",
   apiBasePath: '/api',
-  staticBasePath: '/static',
+  staticBasePath: 'static',
   pandaAccessDetails: {"cloud_id":"GARBAGE","access_key":"GARBAGE","timestamp":"2013-05-30T12:38:43.590574Z","signature":"5OCtfSww9UlyIJqjXox17BcZZwke6srEr2Nms6nlyWY="},
   region_names: ["queens", "brooklyn", "bronx", "manhattan", "staten-island"],
   pusher: {
@@ -62045,23 +62045,23 @@ PandaUploader.UploadOnSubmitAjax.prototype.constructor = PandaUploader.UploadOnS
 
 }).call(this);
 icon_paths = [
-  "/assets/loading.gif",
+  "assets/loading.gif",
 
-  
-  "/assets/icons/nyc.png",
-  
 
-  
-  "/assets/icons/staten-island.png",
-  
-  "/assets/icons/manhattan.png",
-  
-  "/assets/icons/bronx.png",
-  
-  "/assets/icons/brooklyn.png",
-  
-  "/assets/icons/queens.png",
-  
+  "assets/icons/nyc.png",
+
+
+
+  "assets/icons/staten-island.png",
+
+  "assets/icons/manhattan.png",
+
+  "assets/icons/bronx.png",
+
+  "assets/icons/brooklyn.png",
+
+  "assets/icons/queens.png",
+
 ]
 
 for(var i = 0; i < icon_paths.length; i++) {
@@ -62088,7 +62088,7 @@ if (this.module)
   module.exports = JSON;
 
 (function () {
-  
+
 
     function f(n) {
         // Format integers to have at least two digits.
@@ -65860,7 +65860,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     Region.prototype.iconPath = function() {
-      return "/assets/icons/" + this.slug + ".png";
+      return "assets/icons/" + this.slug + ".png";
     };
 
     Region.prototype.neighborhoodNames = function() {
@@ -66015,7 +66015,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     };
 
     World.prototype.iconPath = function() {
-      return "/assets/icons/" + (_(this.name).underscored()) + ".png";
+      return "assets/icons/" + (_(this.name).underscored()) + ".png";
     };
 
     World.prototype.fetchRegions = function(successCallback) {
@@ -66982,10 +66982,10 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div id="addBlockModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">\n  <img src="/assets/loading.gif"/>\n</div>\n\n');
-      
+        __out.push('<div id="addBlockModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">\n  <img src="assets/loading.gif"/>\n</div>\n\n');
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67033,33 +67033,33 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<table class=\'table\'>\n  <thead>\n    <tr>\n      <th>Zip Code</th>\n      <th>Neighborhood</th>\n      <th>Director</th>\n      <th>Recorded</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>');
-      
+
         __out.push(__sanitize(this.zip_code));
-      
+
         __out.push('</td>\n      <td>');
-      
+
         __out.push(__sanitize(this.neighborhood));
-      
+
         __out.push('</td>\n      <td>\n        <img class="profile" src=\'');
-      
+
         __out.push(__sanitize(this.userPhoto()));
-      
+
         __out.push('\' alt=\'');
-      
+
         __out.push(__sanitize(this.userName()));
-      
+
         __out.push('\'></img>\n        ');
-      
+
         __out.push(__sanitize(this.userName()));
-      
+
         __out.push('\n      </td>\n      <td>');
-      
+
         __out.push(__sanitize(this.recorded()));
-      
+
         __out.push('</td>\n    </tr>\n  </tbody>\n</table>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67107,9 +67107,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<div class="nav nav-list debug debug-sidenav affix" style="display: none;">\n  <p class="label label-inverse"> Debug Panel</p>\n  <table class="table table-bordered">\n    <tr>\n      <th>mouse</th>\n      <th>x</th>\n      <th>y</th>\n    </tr>\n    <tr class="screen">\n      <td>screen</td>\n      <td class="x"></td>\n      <td class="y"></td>\n    </tr>\n    <tr class="world">\n      <td>world</td>\n      <td class="x"></td>\n      <td class="y"></td>\n    </tr>\n    <tr class="mercator">\n      <td>mercator</td>\n      <td class="x"></td>\n      <td class="y"></td>\n    </tr>\n    <tr class="lonlat">\n      <td>lon/lat</td>\n      <td class="x"></td>\n      <td class="y"></td>\n    </tr>\n  </table>\n</div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67157,21 +67157,21 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<img class="profile" src=\'');
-      
+
         __out.push(__sanitize(this.profilePhoto()));
-      
+
         __out.push('\' alt=\'');
-      
+
         __out.push(__sanitize(this.name));
-      
+
         __out.push('\'></img>\n<div class="info">\n  <h4 class="name">');
-      
+
         __out.push(__sanitize(this.name));
-      
+
         __out.push('</h4>\n  <a class="logout">Log out</a>\n</div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67219,9 +67219,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<a class="login">Login with Facebook</a>\n\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67268,10 +67268,10 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div class="userPanel"></div>\n<div id="world"></div>\n<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="/assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
-      
+        __out.push('<div class="userPanel"></div>\n<div id="world"></div>\n<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67319,13 +67319,13 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('This block has no video ready for playback.\n');
-      
+
         __out.push(JST["app/views/blockStats"](this));
-      
+
         __out.push('\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67373,17 +67373,17 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<video width="640" height="480" controls>\n  <source src="');
-      
+
         __out.push(__sanitize(this.video.url));
-      
+
         __out.push('" type="video/mp4">\n  Your browser does not support the video tag.\n</video>\n');
-      
+
         __out.push(JST["app/views/blockStats"](this));
-      
+
         __out.push('\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67431,9 +67431,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         var region, _i, _len, _ref;
-      
+
         __out.push('<div class="container">\n  <h1>Block Cities</h1>\n  <div class="well">\n    <ul class="nav nav-list">\n        ');
-      
+
         _ref = this.regions;
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           region = _ref[_i];
@@ -67443,11 +67443,11 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
           __out.push(__sanitize(region.name));
           __out.push('</a>\n          </li>\n        ');
         }
-      
+
         __out.push('\n        <a class="span4" data-type="back">Back</a>\n    </ul>\n  </div>\n</div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67495,13 +67495,13 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<div class="navbar navbar-inverse navbar-fixed-top">\n  <div class="navbar-inner">\n    <i class="icon-th icon-white left"></i>\n    <h4 class="left">');
-      
+
         __out.push(__sanitize(this.name));
-      
+
         __out.push('</h4>\n\n    <ul class="nav">\n      <li><a data-type="back">Back</a></li>\n    </ul>\n  </div>\n</div>\n\n<div id="world"></div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67549,9 +67549,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<div class="container">\n  <h1>Block Cities</h1>\n  <a class="span4" data-type="show">Worlds</a>\n</div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67599,9 +67599,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<form class="form-search" onSubmit="return false;">\n  <i class="icon-search"></i>\n  <input id="search" class="input-large search-query" type="text" name="neighborhood" placeholder="Type to search for a neighborhood" autocomplete="off"/>\n</form>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67649,25 +67649,25 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         var regionName, _i, _len, _ref;
-      
+
         __out.push('<div class="container">\n  <p class="span12 height100"/>\n\n  <h1>New Block City</h1>\n  <table>\n    <tbody>\n\n      <tr>\n        ');
-      
+
         _ref = this.regionNames;
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           regionName = _ref[_i];
           __out.push('\n          <td class="');
           __out.push(__sanitize(regionName));
           __out.push(' icon centered">\n            <img src="');
-          __out.push(__sanitize("/assets/icons/" + regionName + ".png"));
+          __out.push(__sanitize("assets/icons/" + regionName + ".png"));
           __out.push('" alt="');
           __out.push(__sanitize(regionName));
           __out.push('">\n          </td>\n        ');
         }
-      
+
         __out.push('\n      </tr>\n    </tbody>\n  </table>\n  <h2>Error!</h2>\n  <p>This application requires <a href="http://www.google.com/chrome">Chrome!</a> version 23+.</p>\n</div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67714,10 +67714,10 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     }
     (function() {
       (function() {
-        __out.push('<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="/assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
-      
+        __out.push('<div class="loading">\n  <div class="relativeHolder">\n    <div class="contentHolder">\n      <img src="assets/loading.gif"/>\n      <p class="label label-info">Loading</p>\n    </div>\n  </div>\n</div>\n');
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
@@ -67765,9 +67765,9 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
     (function() {
       (function() {
         __out.push('<div class="selectedNeighborhood"></div>\n');
-      
+
       }).call(this);
-      
+
     }).call(__obj);
     __obj.safe = __objSafe, __obj.escape = __escape;
     return __out.join('');
