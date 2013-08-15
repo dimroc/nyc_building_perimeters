@@ -61921,7 +61921,7 @@ window.Constants = {
   window.Env = {
     "production": true,
     debug: initialDebug, // true unless prod
-    neighbors: 0,
+    neighbors: 4,
     boroughs: "normal",
     neighborhoods: "wireframe",
     buildings: true,
