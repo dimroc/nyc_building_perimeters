@@ -61929,8 +61929,8 @@ window.Constants = {
     blocks: true,
     renderLayer: function(layerName) { return Env[layerName] != "off" },
     tween: TWEEN.Easing.Quadratic.InOut,
-    isChrome: checkIfChrome(),
-    isChrome23: checkIfAtLeastChrome23()
+    isChrome: true,
+    isChrome23: true
   }
 
   window.navigator.geolocation.getCurrentPosition(function(geoposition) {
